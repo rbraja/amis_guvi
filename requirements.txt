@@ -1,0 +1,17 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+plotly
+matplotlib
+seaborn
+transformers
+torch
+datasets
+sentencepiece
+accelerate
+chromadb
+sentence-transformers
+pypdf
+torch

@@ -1,0 +1,438 @@
+Project: AMIS — Project Change Log
+Date: 2026-06-24
+
+Summary of code updates performed
+- Added a user-facing README with quick start instructions (`README.md`).
+- Refactored `src/rag_setup.py` into a runnable script with functions, using `src.config` paths and basic error handling.
+- Updated `src/rag_loader.py` to use `DATA_DIR` from `src.config` instead of hardcoded paths.
+- Reworked retrieval logic in `src/rag_search.py`:
+  - Primary: semantic retrieval via ChromaDB embeddings (`sentence-transformers`).
+  - Fallback: TF-IDF retrieval over CSV and PDF sources when Chroma is empty or on error.
+  - Results now include a `backend` field indicating `chroma` or `tfidf`.
+- Added multi-PDF ingestion support:
+  - `src/rag_setup.py` now loads PDF documents from `data/rag/` and `data/asset_manuals/`.
+  - `src/rag_loader.py` now includes PDF text data for TF-IDF fallback search as well.
+- Added a Streamlit UI hook at `pages/12_RAG_Assistant.py`:
+  - `top_k` slider for number of results.
+  - Displays which retrieval backend was used and result scores.
+  - `Rebuild Vector DB` button that calls `src.rag_setup.main()` with spinner and success/error messages.
+
+How to run and test manually
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+2. (Optional) Build the vector DB from CSV sources:
+```bash
+python -m src.rag_setup
+```
+3. Run the Streamlit app and open the RAG Assistant page:
+```bash
+streamlit run app.py
+```
+4. On the RAG Assistant page, enter a question and click `Search`.
+   - If the vector DB is present the Chroma backend will be used; otherwise the TF-IDF fallback will return results.
+   - Use `Rebuild Vector DB` to recreate the collection from CSV sources.
+
+Notes & next recommendations
+- Unit tests are intentionally omitted per current instruction (tests not required).
+- Optional next improvements: add a confirmation for rebuild, show incremental progress during rebuild, or add a 'clear DB' action.
+
+Files changed (high-level)
+- README.md
+- src/rag_setup.py
+- src/rag_loader.py
+- src/rag_search.py
+- pages/12_RAG_Assistant.py
+
+End of document
+Project Title
+Apartment Maintenance Intelligence System (AMIS) - Predictive Maintenance, NLP Analytics & Agentic RAG Assistant
+Skills take away From This Project
+Data Analysis, Data Cleaning, SQL, Machine Learning (Classification & Regression), Deep Learning (NLP), LLM / Agentic RAG, Streamlit Deployment, MLOps basics, Feature Engineering, Sentiment Analysis
+Domain
+PropTech · Integrated Facility Management (IFM) · Smart Communities
+
+
+Problem Statement:
+UrbanHive Ops is a Bengaluru-based PropTech and integrated facility-management company (founded 2016) that operates maintenance, helpdesk, and asset care for 120+ premium apartment communities across South India. Their internal platform AMIS powers work orders, technician dispatch, SLA tracking, and resident feedback for every site they manage.
+
+In 2026, UrbanHive's leadership launched a Data & AI program to reduce SLA breaches and scale help desk support. The Guvi AIML capstone uses an anonymized operational data export from their highest-volume pilot property,  GreenPark Meridian Residency (15 towers, 2,400 apartments, ~6,500 residents), covering roughly 24 months of AMIS transactions, service visits, asset events, and policy documents.
+
+Learners act as data science consultants delivering the same outcomes UrbanHive's internal AI team is building: clean warehouse tables, predictive models, NLP on service text, and a deployed agentic RAG assistant for staff.
+
+UrbanHive Ops at GreenPark Meridian processes thousands of maintenance tickets per quarter. Today this leads to:
+Delayed resolution with no data-driven priority assignment
+Poor technician matching (skill vs complaint type)
+No visibility into asset health until failure
+No analysis of seasonal complaint spikes (monsoon leakage, summer HVAC load)
+Weak resident feedback loops after ticket closure
+Management cannot answer policy/SLA questions at scale without searching documents
+UrbanHive has engaged learners to deliver an end-to-end data & AI solution that:
+Cleans and integrates AMIS operational exports (staging raw/ → analytics-ready tables)
+Delivers dashboards and predictive models aligned to VP Operations and Head of Maintenance KPIs
+Applies NLP/DL on resident complaints and feedback captured in AMIS
+Deploys an AI maintenance assistant (RAG) on UrbanHive society rules, technician repair notes, and OEM asset manuals
+Industry Relevance:
+Guideline Item
+AMIS Response
+Real-world business problem
+Society maintenance operations at scale (PropTech / facility management)
+Industry demand domain
+Smart communities, operations analytics, NLP on service text, LLM-assisted support
+Who benefits?
+Residents, facility managers, maintenance head, asset team, society office
+What decision is improved?
+Priority escalation, technician assignment, preventive maintenance, SLA/policy answers
+Measurable impact expected
+Faster resolution, higher feedback ratings, fewer repeat emergencies within 30 days
+Avoids academic-only demo?
+Yes, mirrors UrbanHive's live AMIS warehouse and 2026 AI roadmap
+
+
+Business Use Cases:
+The AMIS solution can be implemented across multiple facility management scenarios:
+Stakeholder
+Use Case
+Decision Improved
+Facility manager
+Priority & SLA dashboard by tower/category
+Escalation and staffing
+Maintenance head
+Technician recommendation by category & past success
+Assignment quality
+Asset team
+Failure history + asset age risk
+Preventive maintenance scheduling
+Resident relations
+Sentiment trends on closed tickets
+Service quality intervention
+Society office / Helpdesk
+RAG assistant for rules & procedures
+Faster answers on SLAs, penalties, escalation
+Operations (future)
+Predict resolution time
+Resource planning
+
+
+Who benefits: Residents (faster fixes), management (lower cost & risk), technicians (fair workload).
+Measurable impact: Higher on-time closure rate, improved average feedback rating, reduced emergency repeat complaints within 30 days.
+Approach:
+Learners follow a phased methodology across 14 days:
+Phase 1 — Data Understanding & Cleaning (Days 1–3)
+Profile all tables in raw/ for duplicates, nulls, invalid formats
+Fix emails, dates, negative resolution times, legacy category codes
+Produce cleaned_by_you/ with a documented cleaning log (reproducible notebook)
+Validate row counts against assignment targets
+Phase 2 — Integration & EDA (Days 4–5)
+Join hub table maintenance_requests to apartments, residents, technicians, building_assets, service_logs, resident_feedback
+Analyze complaints by tower, floor, season, category
+Engineer features: season_flag, complaint_hour, is_repeat_complaint, asset failure counts
+Phase 3 — Machine Learning (Days 6–8)
+Multi-class: predict priority from structured + text features (TF-IDF + tabular)
+Regression: predict resolution_time_hours (log-transform, MAE/RMSE)
+Recommendation: rank technicians using technician_history success by category
+Handle class imbalance using SMOTE / class weights where needed
+Phase 4 — Deep Learning & NLP (Days 8–10)
+Fine-tune DistilBERT (or RoBERTa) or meta on feedback_text for sentiment_label
+Train complaint category classifier on complaint_text
+Compare DL vs ML baseline (accuracy, F1, training time)
+Phase 5 — Agentic RAG & Deployment (Days 10–14)
+Chunk and embed: society_rules, service_logs.repair_notes, asset_manuals
+Build retrieval pipeline (ChromaDB + all-MiniLM-L6-v2) or any 
+LangGraph / LangChain agent with citations and confidence threshold fallback
+Deploy Streamlit app: analytics tab + model inference + RAG chat
+Publish GitHub repo + data export zip
+Results:
+
+By project completion, learners should deliver:
+#
+Expected Result
+1
+Cleaned dataset pipeline from raw/ with documented quality fixes
+2
+Interactive EDA report (notebook + charts): top towers, seasonal patterns, SLA by priority
+3
+ML model for priority prediction with macro-F1 ≥ 0.55
+4
+Resolution-time regression model with MAE reported on held-out test set
+5
+DL sentiment model with weighted-F1 ≥ 0.75 on feedback_text
+6
+Working RAG assistant answering 5+ policy/incident questions with source citations
+7
+Live deployed Streamlit app accessible via public URL
+
+
+
+Project Evaluation metrics:
+
+Data & Cleaning (20%)
+Metric
+Target
+Cleaning log completeness
+All mandated tables documented
+Row integrity
+residents ~6,500; requests ~21,600; no duplicate feedback per request
+Foreign Key consistency
+No orphan apartment_id / resident_id on maintenance_requests
+
+EDA & Business Insight (15%)
+Metric
+Target
+Minimum 5 actionable insights
+Documented with supporting charts
+Seasonal / tower analysis
+At least 2 dimensions explored
+
+
+Machine Learning (25%)
+
+Task
+Metric
+Priority prediction
+Macro-F1, confusion matrix
+Resolution time regression
+MAE / RMSE on log-scaled target
+Technician ranking
+Precision@3 vs historical best technician (proxy metric)
+
+
+Deep Learning (20%)
+
+Task
+Metric
+Sentiment classification
+Weighted-F1, classification report
+Category from text (optional)
+Accuracy / macro-F1 vs TF-IDF baseline
+
+
+RAG & Deployment (20%)
+Metric
+Target
+Retrieval relevance
+Manual evaluation on 5 test queries
+Citation
+Every answer lists rule_id / request_id / manual id
+Deployment
+Public URL loads without errors
+
+
+Technical Tags:
+
+Python · pandas · NumPy · scikit-learn · XGBoost · PyTorch / TensorFlow · Hugging Face Transformers · DistilBERT · RoBERTa · TF-IDF · SQL · Matplotlib · Seaborn · Plotly · Streamlit · LangChain · LangGraph · InMemory() · sentence-transformers · RAG · LLM · Feature Engineering · SMOTE · Classification · Regression · NLP · Facility Management · PropTech
+
+Data Set: link
+
+Item
+Detail
+Name
+UrbanHive AMIS Operational Export -  GreenPark Meridian v1.0.0
+Source
+UrbanHive Facility Technologies Pvt. Ltd. - anonymized snapshot from AMIS production data warehouse. Not a public Kaggle dataset.
+Property
+GreenPark Meridian Residency, Bengaluru - 15 towers, 2,400 apartments
+Time span
+~24 months of operational history
+Format
+CSV (relational warehouse export); TXT/PDF OEM + UrbanHive SOP manuals for RAG
+Distribution
+Learners receive raw/ only; organization retains normalized cleaned/ for evaluation
+Scale
+21,600 maintenance requests; 108,000 complaint text variants; 47,500 service logs; 6,500 residents; 11 core tables
+
+
+Table Summary:
+
+File
+Rows
+Role
+apartments.csv
+2,400
+Tower, floor, unit, occupancy
+residents.csv
+6,500
+Demographics, contact
+building_assets.csv
+500
+Lifts, pumps, HVAC, etc.
+technicians.csv
+80
+Skills, experience, rating
+technician_availability.csv
+58,400
+Daily availability calendar
+maintenance_requests.csv
+21,600
+Complaints (text, priority, status)
+service_logs.csv
+47,500
+Visits, repair notes, cost
+resident_feedback.csv
+11,840
+Rating, sentiment, feedback text
+society_rules.csv
+75
+SLA & policy text for RAG
+technician_history.csv
+50,000
+Performance per category
+asset_failure_history.csv
+30,000
+Asset failures & downtime
+complaint_narratives.csv
+108,000
+Extra NLP training variants
+
+
+RAG Data Link - Link
+
+Data Set Explanation:
+Business Context (GreenPark Meridian on AMIS):
+Managed by UrbanHive Ops since 2024; AMIS is the system of record for all tickets and visits
+15 towers × 20 floors × 8 units = 2,400 apartments (~85% occupied, ~6,500 residents)
+Ticket volume reflects real operational patterns: monsoon water/leakage spikes, summer HVAC load, festival-period security noise
+Priority in AMIS follows UrbanHive's published SLA matrix per complaint category
+Resident feedback is collected in-app after ticket closure; sentiment aligns with rating and resolution time
+Asset registry tracks lifts, pumps, generators, fire systems, HVAC plant - failure history supports preventive maintenance KPIs
+Preprocessing Required (learner-facing):
+raw/ - typical staging issues: duplicate rows from mobile sync, invalid emails, legacy category codes, bad timestamps, 3–5% nulls
+Learners build cleaned_by_you/ per the cleaning assignment brief
+Organization evaluates submissions against the private normalized export (cleaned/)
+For NLP: tokenization; stratified train/validation/test split
+For RAG: index rules, repair notes, and asset manuals; retrieve with embeddings; cite sources in every answer
+Key Variables: category, priority, status, complaint_text, resolution_time_hours, sentiment_label, feedback_text, repair_notes, success_rate, asset_category, tower_id, and related IDs across joined tables.
+
+Table Relationships & Join Map:
+
+Join Map
+
+The following table defines the foreign-key relationships across all 11 AMIS tables. Use these keys when performing multi-table joins in pandas or SQL.
+
+From
+To
+Key
+maintenance_requests
+apartments
+apartment_id
+maintenance_requests
+residents
+resident_id  (must match same apartment_id)
+maintenance_requests
+technicians
+assigned_technician_id = technician_id
+maintenance_requests
+building_assets
+asset_id  (nullable)
+maintenance_requests
+service_logs
+request_id
+maintenance_requests
+resident_feedback
+request_id
+maintenance_requests
+complaint_narratives
+request_id
+technicians
+technician_availability
+technician_id
+technicians
+technician_history
+technician_id
+building_assets
+asset_failure_history
+asset_id
+
+
+SQL Example  (SQLite / PostgreSQL)
+
+The query below joins the four core tables to produce a closed-ticket view with tower, resident, and technician context. Use it as a starting point for Phase 2 EDA joins.
+SELECT
+    m.request_id,
+    a.tower_id,
+    a.floor_number,
+    m.category,
+    m.priority,
+    m.status,
+    r.resident_name,
+    t.technician_name,
+    t.experience_years
+FROM maintenance_requests m
+JOIN apartments a         ON m.apartment_id = a.apartment_id
+JOIN residents r          ON m.resident_id  = r.resident_id
+JOIN technicians t        ON m.assigned_technician_id = t.technician_id
+WHERE m.status = 'Closed'
+LIMIT 100;
+Tip: Replace WHERE m.status = 'Closed' with any status filter (Open, In Progress, Escalated) to slice the dataset differently during EDA.
+
+Project Deliverables:
+
+Learners must submit the following upon project completion:
+#
+Deliverable
+1
+GitHub repository (code + README)
+2
+cleaned_by_you/ folder or documented path to cleaned data
+3
+Jupyter notebooks or .py pipeline (cleaning → EDA → ML → DL → RAG)
+5
+Model artifacts / saved weights (or training script to reproduce)
+6
+Deployed Streamlit app- public URL
+8
+5-minute demo video or live evaluation walkthrough
+
+
+Project Guidelines:
+Coding & Repository:
+Python 3.9+; requirements.txt with pinned major versions
+Modular notebooks or src/ package (cleaning, features, train, app)
+Git commits per phase (cleaning, EDA, ML, DL, deploy)
+No hard-coded absolute paths; use relative paths from project root
+Modelling:
+Train/test split with no leakage from future dates
+Report metrics on held-out test set only
+Compare at least one baseline (TF-IDF + logistic) vs DL for NLP tasks
+RAG:
+Mandatory source citation in every answer
+Fallback message when retrieval score < 0.40
+Facility management context only -  no medical/legal claims
+Deployment:
+Streamlit Community Cloud (recommended) or Render
+App must load cleaned sample or precomputed embeddings
+Include sample questions in sidebar for evaluators
+Timeline:
+
+Total duration for learners: 2 weeks (per Final Project Guidelines)
+Day
+Milestone
+Output
+1–2
+Kickoff + profiling
+Raw data report
+3
+Cleaning complete
+cleaned_by_you/ + cleaning log
+4–5
+EDA + joins
+Dashboard / notebook
+6–7
+ML models
+Priority + resolution models
+8–9
+DL NLP
+Sentiment (+ optional category)
+10–11
+RAG index + agent
+InMemory() collections + test Q&A
+12–13
+Streamlit deploy
+Public URL
+14
+Buffer + documentation
+GitHub repo + demo ready for live evaluation
+
+
+

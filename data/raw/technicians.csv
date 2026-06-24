@@ -1,0 +1,81 @@
+technician_id,technician_name,specialization,experience_years,rating,joining_date,availability_status,dataset_version
+TEC-001,Vikram Patel,General,2.0,,2023-12-13,Available,v1.0.0
+TEC-002,Rohan Nair,,10.0,3.04,2016-05-10,Available,v1.0.0
+TEC-003,Isha Nair,General,22.0,4.45,,Available,v1.0.0
+TEC-004,Deepa Rao,General,14.0,3.86,,Busy,v1.0.0
+TEC-005,Neha Khan,General,10.0,2.81,2016-04-27,Available,v1.0.0
+TEC-006,Sneha Nair,General,3.0,2.41,2023-02-03,Available,v1.0.0
+TEC-007,Deepa Gupta,General,17.0,3.89,2009-04-25,Available,v1.0.0
+TEC-008,Amit Reddy,General,12.0,3.38,2013-10-22,Available,v1.0.0
+TEC-009,Lakshmi Das,General,13.0,3.54,2013-03-19,On Leave,v1.0.0
+TEC-010,Priya Das,General,25.0,4.29,2000-09-28,Available,v1.0.0
+TEC-011,Deepa Iyer,General,8.0,3.36,2017-11-26,Available,v1.0.0
+TEC-012,Neha Khan,General,22.0,4.45,2004-01-30,Available,v1.0.0
+TEC-013,Priya Rao,General,4.0,2.84,2022-01-28,Available,v1.0.0
+TEC-014,Ananya Patel,General,16.0,4.06,2009-09-15,Available,v1.0.0
+TEC-015,Priya Sharma,General,23.0,4.46,2003-02-19,Available,v1.0.0
+TEC-016,Priya Menon,General,9.0,3.01,,Available,v1.0.0
+TEC-017,Sneha Khan,General,25.0,4.59,2001-04-13,On Leave,v1.0.0
+TEC-018,Vikram Reddy,General,16.0,3.54,2010-05-12,Available,v1.0.0
+TEC-019,Aarav Das,General,22.0,4.48,2003-11-19,Available,v1.0.0
+TEC-020,Lakshmi Patel,General,14.0,3.61,2011-09-25,On Leave,v1.0.0
+TEC-021,Neha Menon,General,16.0,3.73,2009-10-12,Available,v1.0.0
+TEC-022,Meera Nair,General,17.0,3.69,2008-09-25,,v1.0.0
+TEC-023,Neha Menon,General,24.0,4.73,2001-12-10,Available,v1.0.0
+TEC-024,Neha Patel,General,19.0,3.98,2007-04-20,Available,v1.0.0
+TEC-025,Rahul Khan,General,20.0,3.99,2006-01-10,Available,v1.0.0
+TEC-026,Priya Das,General,21.0,4.09,2005-03-11,Busy,v1.0.0
+TEC-027,Lakshmi Patel,General,21.0,4.31,2005-05-30,Available,v1.0.0
+TEC-028,Vikram Reddy,General,21.0,4.27,2004-09-30,Available,v1.0.0
+TEC-029,Rohan Rao,Plumbing,13.0,3.64,2012-11-02,Available,v1.0.0
+TEC-030,Meera Reddy,Plumbing,22.0,4.37,2004-05-31,Available,v1.0.0
+TEC-031,Rohan Nair,Plumbing,6.0,3.52,2020-05-06,Available,v1.0.0
+TEC-032,Suresh Reddy,Plumbing,2.0,2.56,2024-01-23,Available,v1.0.0
+TEC-033,Sneha Sharma,,9.0,3.09,2016-10-23,On Leave,v1.0.0
+TEC-034,Ananya Iyer,Plumbing,12.0,3.26,2014-02-17,Available,v1.0.0
+TEC-035,Meera Menon,Plumbing,19.0,4.17,2006-11-30,,v1.0.0
+TEC-036,Deepa Menon,Plumbing,2.0,2.94,2023-11-04,Busy,v1.0.0
+TEC-037,Aarav Rao,Plumbing,3.0,2.71,2023-01-18,Busy,v1.0.0
+TEC-038,Sneha Menon,Plumbing,21.0,3.97,2004-10-08,Available,v1.0.0
+TEC-039,Suresh Iyer,Plumbing,25.0,4.29,2000-09-16,On Leave,v1.0.0
+TEC-040,Amit Das,Plumbing,18.0,4.1,2008-05-04,Available,v1.0.0
+TEC-041,Amit Das,Plumbing,25.0,4.69,2000-10-02,Available,v1.0.0
+TEC-042,Vikram Nair,Plumbing,4.0,2.96,2022-01-03,Available,v1.0.0
+TEC-043,Rahul Gupta,Plumbing,13.0,3.37,2013-02-11,On Leave,v1.0.0
+TEC-044,Lakshmi Iyer,Plumbing,4.0,2.88,2021-09-16,Available,v1.0.0
+TEC-045,Meera Rao,Plumbing,22.0,4.29,2003-08-19,Busy,v1.0.0
+TEC-046,Lakshmi Iyer,Plumbing,,,2003-05-08,Available,v1.0.0
+TEC-047,Priya Rao,Electrical,2.0,2.88,2023-12-18,Available,v1.0.0
+TEC-048,Meera Sharma,Electrical,2.0,2.72,2024-05-20,Busy,v1.0.0
+TEC-049,Ananya Khan,Electrical,9.0,3.39,2017-05-21,Available,v1.0.0
+TEC-050,Arjun Reddy,Electrical,23.0,4.36,2003-02-06,Busy,v1.0.0
+TEC-051,Deepa Iyer,Electrical,24.0,4.49,2002-05-02,Available,v1.0.0
+TEC-052,Karthik Gupta,Electrical,21.0,4.34,2005-05-08,Available,v1.0.0
+TEC-053,Amit Patel,Electrical,21.0,3.82,2004-09-20,Available,v1.0.0
+TEC-054,Rohan Reddy,Electrical,16.0,3.7,2010-05-01,Busy,v1.0.0
+TEC-055,Meera Reddy,Electrical,16.0,3.66,2010-03-10,Available,v1.0.0
+TEC-056,Neha Reddy,Electrical,4.0,2.66,2021-09-25,Busy,v1.0.0
+TEC-057,Karthik Patel,Electrical,18.0,3.87,2007-12-17,Busy,v1.0.0
+TEC-058,Suresh Sharma,Electrical,16.0,4.15,2009-09-30,Available,v1.0.0
+TEC-059,Deepa Patel,Electrical,14.0,3.4,2012-02-13,Available,v1.0.0
+TEC-060,Priya Gupta,Electrical,22.0,4.5,2003-08-14,Available,v1.0.0
+TEC-061,Isha Nair,HVAC,3.0,2.32,2023-04-19,Available,v1.0.0
+TEC-062,Sneha Khan,HVAC,13.0,3.46,2013-04-21,Available,v1.0.0
+TEC-063,Priya Das,HVAC,16.0,3.82,2009-12-28,On Leave,v1.0.0
+TEC-064,Isha Rao,HVAC,18.0,4.09,2007-10-29,Available,v1.0.0
+TEC-065,Vikram Khan,HVAC,25.0,4.68,2000-09-22,Available,v1.0.0
+TEC-066,Amit Khan,HVAC,25.0,4.7,2001-04-22,Available,v1.0.0
+TEC-067,Ananya Reddy,HVAC,15.0,3.61,2011-05-06,Available,v1.0.0
+TEC-068,Vikram Menon,HVAC,19.0,3.9,2007-04-26,Available,v1.0.0
+TEC-069,Neha Sharma,Lift,24.0,4.63,2001-10-03,Available,v1.0.0
+TEC-070,Karthik Reddy,Lift,1.0,2.53,2024-10-23,Available,v1.0.0
+TEC-071,Sneha Gupta,Lift,14.0,3.3,2012-01-03,Available,v1.0.0
+TEC-072,Meera Iyer,Lift,,3.42,2011-06-08,Available,v1.0.0
+TEC-073,Deepa Menon,Security,1.0,2.35,2024-08-29,Available,v1.0.0
+TEC-074,Priya Das,Security,21.0,4.3,2005-01-14,Available,v1.0.0
+TEC-075,Meera Menon,,11.0,3.42,2015-04-24,Available,v1.0.0
+TEC-076,Isha Rao,Security,,4.11,2008-01-05,Available,v1.0.0
+TEC-077,Neha Gupta,Security,17.0,3.75,2009-03-01,Available,v1.0.0
+TEC-078,Vikram Menon,Security,1.0,2.62,2025-03-24,Available,v1.0.0
+TEC-079,Rohan Rao,Security,18.0,4.1,2007-10-11,Available,v1.0.0
+TEC-080,Vikram Khan,Security,22.0,4.18,2003-12-05,Available,v1.0.0

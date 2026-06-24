@@ -1,0 +1,501 @@
+asset_id,tower_id,asset_name,asset_category,manufacturer,installation_date,warranty_end,maintenance_frequency,last_service_date,asset_status,dataset_version
+ast-00001,t01,t01 lift #1,lift,honeywell,2008-03-04,2011-06-01,quarterly,2019-06-01,operational,v1.0.0
+ast-00002,t01,t01 fire alarm #2,fire alarm,hikvision,2023-10-20,2027-08-24,monthly,2026-03-20,operational,v1.0.0
+ast-00003,t01,t01 generator #3,generator,kone,2019-07-27,2024-06-18,monthly,2021-10-08,operational,v1.0.0
+ast-00004,t01,t01 lift #4,lift,schindler,2007-08-23,2011-07-12,bi-annual,2022-11-27,operational,v1.0.0
+ast-00005,t01,t01 water tank #5,water tank,daikin,2008-01-28,2012-02-06,monthly,2012-10-26,operational,v1.0.0
+ast-00006,t01,t01 generator #6,generator,otis,2021-02-15,2024-10-21,quarterly,2012-10-26,operational,v1.0.0
+ast-00007,t01,t01 water tank #7,water tank,carrier,2024-04-07,2027-05-01,bi-annual,2025-11-23,operational,v1.0.0
+ast-00008,t01,t01 hvac unit #8,hvac unit,otis,2020-10-27,2025-09-13,bi-annual,2021-04-01,operational,v1.0.0
+ast-00009,t01,t01 cctv #9,cctv,carrier,2019-09-05,2020-10-19,monthly,2026-05-27,operational,v1.0.0
+ast-00010,t01,t01 water tank #10,water tank,hikvision,2018-04-06,2019-08-01,monthly,2019-02-24,operational,v1.0.0
+ast-00011,t01,t01 water tank #11,water tank,carrier,2014-05-04,2015-07-11,bi-annual,2014-06-22,failed,v1.0.0
+ast-00012,t01,t01 hvac unit #12,hvac unit,schindler,2018-08-07,2023-04-13,quarterly,2012-10-26,operational,v1.0.0
+ast-00013,t01,t01 water tank #13,water tank,carrier,2010-07-02,2012-11-26,bi-annual,2021-12-08,operational,v1.0.0
+ast-00014,t01,t01 cctv #33,generator,hikvision,2021-09-18,2024-06-30,quarterly,2023-08-18,operational,v1.0.0
+ast-00015,t01,t01 lift #15,lift,schindler,2018-03-06,2021-03-14,annual,2023-02-04,operational,v1.0.0
+ast-00016,t01,t01 lift #16,lift,otis,2024-01-20,2025-05-27,bi-annual,2024-04-18,operational,v1.0.0
+ast-00017,t01,t01 hvac unit #17,hvac unit,otis,2022-02-27,2026-06-16,monthly,2023-09-03,operational,v1.0.0
+ast-00018,t01,t01 fire alarm #18,fire alarm,kone,2023-04-08,2025-12-28,annual,2026-03-27,operational,v1.0.0
+ast-00019,t01,t01 water pump #19,water pump,honeywell,2008-08-13,2011-07-16,quarterly,2025-09-05,operational,v1.0.0
+ast-00020,t01,t01 generator #20,generator,otis,2022-08-28,2025-10-30,monthly,2025-01-19,operational,v1.0.0
+ast-00021,t01,t01 water pump #21,water pump,kone,2025-05-20,2026-10-24,monthly,2025-07-21,operational,v1.0.0
+ast-00022,t01,t01 fire alarm #22,fire alarm,honeywell,2016-01-05,2019-07-24,annual,2022-08-05,operational,v1.0.0
+ast-00023,t01,t01 lift #23,lift,daikin,2010-11-01,2014-06-09,annual,2016-06-05,operational,v1.0.0
+ast-00024,t01,t01 hvac unit #24,hvac unit,honeywell,2014-02-06,2016-10-27,quarterly,2016-05-30,operational,v1.0.0
+ast-00025,t01,t01 lift #25,lift,kone,2021-06-30,2025-04-29,bi-annual,2021-09-14,operational,v1.0.0
+ast-00026,t01,t01 water pump #26,water pump,kone,2020-12-11,2024-10-25,bi-annual,2024-10-21,operational,v1.0.0
+ast-00027,t01,t01 fire alarm #27,fire alarm,carrier,2009-01-18,2013-06-27,quarterly,2017-05-14,failed,v1.0.0
+ast-00028,t01,t01 hvac unit #28,hvac unit,schindler,2013-08-28,2018-04-01,bi-annual,2015-04-12,operational,v1.0.0
+ast-00029,t01,t01 water tank #29,water tank,cummins,2015-06-07,2019-03-10,quarterly,2017-07-09,failed,v1.0.0
+ast-00030,t01,t01 fire alarm #30,fire alarm,honeywell,2014-12-15,2017-07-24,monthly,2017-10-11,operational,v1.0.0
+ast-00031,t01,t01 lift #31,lift,honeywell,2032-01-01,2021-02-28,bi-annual,2024-01-31,operational,v1.0.0
+ast-00032,t01,t01 hvac unit #32,hvac unit,honeywell,2017-10-23,2020-09-10,quarterly,2018-11-30,operational,v1.0.0
+ast-00033,t01,t01 cctv #33,cctv,schindler,2011-06-17,2014-11-01,monthly,2017-04-13,operational,v1.0.0
+ast-00034,t01,t01 water tank #34,water tank,cummins,2014-07-28,2016-09-06,quarterly,2017-07-12,operational,v1.0.0
+ast-00035,t02,t02 lift #35,lift,hikvision,2019-12-13,2021-07-18,quarterly,2023-04-17,operational,v1.0.0
+ast-00036,t02,t02 fire alarm #36,fire alarm,kone,2009-03-29,2012-04-30,quarterly,2014-06-01,failed,v1.0.0
+ast-00037,t02,t02 generator #37,generator,otis,2019-02-18,2020-06-30,monthly,2021-09-04,failed,v1.0.0
+ast-00038,t02,t02 fire alarm #38,fire alarm,schindler,2020-09-11,2022-01-23,monthly,2023-12-08,operational,v1.0.0
+ast-00039,t02,t02 fire alarm #39,fire alarm,kone,2019-02-06,2021-06-28,bi-annual,2012-10-26,operational,v1.0.0
+ast-00040,t02,t02 lift #40,lift,cummins,2017-11-22,2022-08-12,annual,2024-11-22,operational,v1.0.0
+ast-00041,t02,t02 hvac unit #41,hvac unit,cummins,2024-11-24,2029-08-07,annual,2025-05-02,operational,v1.0.0
+ast-00042,t02,t02 water pump #42,water pump,cummins,2011-06-15,2016-02-06,quarterly,2022-02-22,operational,v1.0.0
+ast-00043,t02,t02 lift #43,lift,carrier,2017-07-17,2020-10-19,monthly,2025-02-26,operational,v1.0.0
+ast-00044,t02,t02 water pump #44,water pump,hikvision,2032-01-01,2026-03-08,bi-annual,2025-01-20,operational,v1.0.0
+ast-00045,t02,t02 fire alarm #45,fire alarm,hikvision,2011-07-25,2016-01-20,quarterly,2020-03-04,operational,v1.0.0
+ast-00046,t02,t02 lift #46,lift,cummins,2020-07-17,2024-09-15,monthly,2025-03-25,under maintenance,v1.0.0
+ast-00047,t02,t02 hvac unit #47,hvac unit,honeywell,2023-01-18,2027-07-02,quarterly,2024-09-17,operational,v1.0.0
+ast-00048,t02,t02 cctv #48,cctv,cummins,2022-07-21,2023-10-22,monthly,2023-03-02,under maintenance,v1.0.0
+ast-00049,t02,t02 water pump #49,water pump,daikin,2009-01-01,2011-08-01,quarterly,2012-04-11,operational,v1.0.0
+ast-00050,t02,t02 cctv #50,cctv,carrier,2010-11-14,2012-08-23,quarterly,2015-09-01,operational,v1.0.0
+ast-00051,t02,t02 generator #51,generator,hikvision,2020-08-31,2022-04-16,annual,2025-04-21,under maintenance,v1.0.0
+ast-00052,t02,t01 cctv #33,water tank,hikvision,2008-11-09,2013-05-04,annual,2023-11-04,operational,v1.0.0
+ast-00053,t02,t02 lift #53,lift,honeywell,2024-07-15,2028-04-08,monthly,2024-12-09,failed,v1.0.0
+ast-00054,t02,t02 hvac unit #54,hvac unit,cummins,2007-09-01,2009-04-13,bi-annual,2010-05-22,operational,v1.0.0
+ast-00055,t02,t02 hvac unit #55,hvac unit,honeywell,2020-01-17,2024-04-23,bi-annual,2020-10-18,operational,v1.0.0
+ast-00056,t02,t02 water pump #56,water pump,daikin,2013-11-09,2017-02-06,annual,2014-03-04,operational,v1.0.0
+ast-00057,t02,t02 hvac unit #57,hvac unit,carrier,2021-06-09,2024-02-18,annual,2023-06-03,operational,v1.0.0
+ast-00058,t02,t02 generator #58,generator,cummins,2008-10-23,2013-01-24,annual,2013-07-10,operational,v1.0.0
+ast-00059,t02,t02 water pump #59,water pump,cummins,2017-08-28,2018-10-19,monthly,2023-07-24,operational,v1.0.0
+ast-00060,t02,t02 lift #60,lift,kone,2023-11-30,2027-09-14,monthly,2025-06-23,operational,v1.0.0
+ast-00061,t02,t02 generator #61,generator,schindler,2021-12-03,2025-08-27,bi-annual,2023-06-19,operational,v1.0.0
+ast-00062,t02,t02 hvac unit #62,hvac unit,hikvision,2018-07-18,2020-11-02,annual,2023-07-30,operational,v1.0.0
+ast-00063,t02,t02 generator #63,generator,cummins,2024-04-03,2026-11-10,monthly,2025-03-15,operational,v1.0.0
+ast-00064,t02,t02 water tank #64,water tank,schindler,2022-09-29,2026-10-05,annual,2025-10-06,operational,v1.0.0
+ast-00065,t02,t02 cctv #65,cctv,cummins,2009-05-07,2012-10-25,bi-annual,2023-11-20,operational,v1.0.0
+ast-00066,t02,t01 cctv #33,fire alarm,honeywell,2012-03-27,2015-07-30,quarterly,2022-02-22,operational,v1.0.0
+ast-00067,t02,t02 water tank #67,water tank,otis,2032-01-01,2017-05-12,bi-annual,2020-07-24,operational,v1.0.0
+ast-00068,t02,t02 lift #68,lift,daikin,2016-02-10,2019-11-20,bi-annual,2019-11-10,operational,v1.0.0
+ast-00069,t03,t03 lift #69,lift,carrier,2024-10-28,2025-12-07,monthly,2025-02-07,operational,v1.0.0
+ast-00070,t03,t03 fire alarm #70,fire alarm,otis,2022-01-12,2025-09-02,quarterly,2023-01-29,operational,v1.0.0
+ast-00071,t03,t03 generator #71,generator,schindler,2012-07-15,2017-01-17,bi-annual,2025-01-18,operational,v1.0.0
+ast-00072,t03,t03 generator #72,generator,schindler,2024-04-02,2027-04-23,bi-annual,2025-05-11,operational,v1.0.0
+ast-00073,t03,t03 hvac unit #73,hvac unit,honeywell,2006-08-17,2008-03-18,annual,2017-11-17,operational,v1.0.0
+ast-00074,t03,t03 water tank #74,water tank,carrier,2018-03-26,2020-02-08,quarterly,2025-08-08,under maintenance,v1.0.0
+ast-00075,t03,t03 water tank #75,water tank,schindler,2015-08-10,2018-05-01,monthly,2017-06-02,operational,v1.0.0
+ast-00076,t03,t03 hvac unit #76,hvac unit,carrier,2021-04-12,2022-12-28,annual,2021-08-25,operational,v1.0.0
+ast-00077,t03,t03 generator #77,generator,kone,2024-06-26,2028-01-19,monthly,2025-01-07,operational,v1.0.0
+ast-00078,t03,t03 generator #78,generator,hikvision,2009-03-08,2011-09-29,annual,2012-10-26,operational,v1.0.0
+ast-00079,t03,t03 hvac unit #79,hvac unit,daikin,2020-03-23,2023-09-08,quarterly,2022-03-20,operational,v1.0.0
+ast-00080,t03,t03 cctv #80,cctv,daikin,2032-01-01,2027-01-03,quarterly,2024-10-18,operational,v1.0.0
+ast-00081,t03,t03 fire alarm #81,fire alarm,honeywell,2024-02-05,2027-03-12,monthly,2026-03-26,failed,v1.0.0
+ast-00082,t03,t03 cctv #82,cctv,honeywell,2016-07-10,2020-09-15,bi-annual,2020-12-16,operational,v1.0.0
+ast-00083,t03,t03 hvac unit #83,hvac unit,carrier,2019-04-25,2024-01-25,monthly,2023-05-02,operational,v1.0.0
+ast-00084,t03,t03 water tank #84,water tank,kone,2023-02-08,2024-04-03,annual,2023-05-17,operational,v1.0.0
+ast-00085,t03,t03 lift #85,lift,hikvision,2014-05-26,2017-08-30,quarterly,2015-03-31,under maintenance,v1.0.0
+ast-00086,t03,t03 hvac unit #86,hvac unit,cummins,2019-12-07,2021-12-22,bi-annual,2021-02-04,operational,v1.0.0
+ast-00087,t03,t03 cctv #87,cctv,hikvision,2022-08-19,2027-01-03,monthly,2024-10-27,operational,v1.0.0
+ast-00088,t03,t03 fire alarm #88,fire alarm,carrier,2017-11-10,2021-10-16,quarterly,2022-10-07,operational,v1.0.0
+ast-00089,t03,t03 water tank #89,water tank,kone,2019-05-12,2021-05-10,bi-annual,2021-06-15,failed,v1.0.0
+ast-00090,t03,t03 hvac unit #90,hvac unit,schindler,2020-07-23,2021-12-31,quarterly,2021-02-23,operational,v1.0.0
+ast-00091,t03,t03 lift #91,lift,honeywell,2012-11-01,2016-06-13,quarterly,2018-08-11,under maintenance,v1.0.0
+ast-00092,t03,t03 cctv #92,cctv,hikvision,2008-12-19,2012-03-17,monthly,2019-12-18,operational,v1.0.0
+ast-00093,t03,t03 cctv #93,cctv,cummins,2023-08-02,2027-04-23,annual,2025-11-01,under maintenance,v1.0.0
+ast-00094,t03,t03 hvac unit #94,hvac unit,daikin,2020-08-21,2024-06-15,monthly,2012-10-26,operational,v1.0.0
+ast-00095,t03,t03 lift #95,lift,daikin,2010-10-13,2013-09-28,quarterly,2014-09-22,operational,v1.0.0
+ast-00096,t03,t03 water tank #96,water tank,kone,2017-04-05,2019-03-07,bi-annual,2018-12-31,operational,v1.0.0
+ast-00097,t03,t03 generator #97,generator,schindler,2018-12-31,2022-12-08,bi-annual,2019-06-01,operational,v1.0.0
+ast-00098,t03,t03 hvac unit #98,hvac unit,kone,2019-03-06,2023-04-05,bi-annual,2026-02-03,operational,v1.0.0
+ast-00099,t03,t03 hvac unit #99,hvac unit,honeywell,2006-06-29,2008-02-08,bi-annual,2022-07-25,operational,v1.0.0
+ast-00100,t03,t03 generator #100,generator,cummins,2011-04-10,2014-01-05,monthly,2014-04-07,operational,v1.0.0
+ast-00101,t03,t03 generator #101,generator,honeywell,2022-06-17,2024-02-19,monthly,2024-03-17,operational,v1.0.0
+ast-00102,t03,t03 water pump #102,water pump,hikvision,2018-06-07,2022-01-31,bi-annual,2026-01-07,operational,v1.0.0
+ast-00103,t04,t04 lift #103,lift,honeywell,2007-02-02,2009-02-18,annual,2024-01-22,operational,v1.0.0
+ast-00104,t04,t04 fire alarm #104,fire alarm,otis,2025-03-18,2027-11-10,monthly,2026-01-17,under maintenance,v1.0.0
+ast-00105,t04,t04 generator #105,generator,hikvision,2012-04-20,2016-08-16,quarterly,2013-01-31,operational,v1.0.0
+ast-00106,t04,t04 generator #106,generator,otis,2021-06-24,2023-07-10,monthly,2025-05-02,operational,v1.0.0
+ast-00107,t04,t04 generator #107,generator,schindler,2007-03-01,2010-12-01,annual,2018-08-27,operational,v1.0.0
+ast-00108,t04,t04 lift #108,lift,schindler,2021-06-03,2025-09-06,quarterly,2021-12-08,operational,v1.0.0
+ast-00109,t04,t04 fire alarm #109,fire alarm,carrier,2022-06-29,2026-11-22,monthly,2023-05-15,operational,v1.0.0
+ast-00110,t04,t04 hvac unit #110,hvac unit,hikvision,2013-01-17,2016-07-12,monthly,2020-07-15,operational,v1.0.0
+ast-00111,t04,t04 lift #111,lift,carrier,2014-06-09,2017-09-15,bi-annual,2022-11-30,operational,v1.0.0
+ast-00112,t04,t04 water tank #112,water tank,daikin,2006-07-28,2010-06-28,annual,2025-01-02,under maintenance,v1.0.0
+ast-00113,t04,t04 water tank #113,water tank,carrier,2015-09-19,2016-10-16,monthly,2021-05-26,operational,v1.0.0
+ast-00114,t04,t04 generator #114,generator,otis,2013-11-26,2016-01-11,bi-annual,2018-05-07,operational,v1.0.0
+ast-00115,t04,t04 water pump #115,water pump,hikvision,2006-09-27,2011-04-18,annual,2019-09-30,operational,v1.0.0
+ast-00116,t04,t04 cctv #116,cctv,honeywell,2010-12-21,2014-11-15,annual,2011-08-01,operational,v1.0.0
+ast-00117,t04,t04 cctv #117,cctv,schindler,2017-11-22,2020-03-24,quarterly,2018-07-18,failed,v1.0.0
+ast-00118,t04,t01 cctv #33,water tank,kone,2014-07-23,2017-08-07,bi-annual,2012-10-26,operational,v1.0.0
+ast-00119,t04,t04 lift #119,lift,daikin,2032-01-01,2015-11-27,annual,2018-06-10,operational,v1.0.0
+ast-00120,t04,t04 water pump #120,water pump,cummins,2007-06-12,2008-12-06,bi-annual,2013-06-19,operational,v1.0.0
+ast-00121,t04,t04 fire alarm #121,fire alarm,honeywell,2015-05-06,2017-05-01,quarterly,2021-01-07,operational,v1.0.0
+ast-00122,t04,t04 hvac unit #122,hvac unit,honeywell,2010-01-21,2013-05-04,bi-annual,2026-05-16,operational,v1.0.0
+ast-00123,t04,t04 cctv #123,cctv,daikin,2021-11-20,2025-09-06,quarterly,2024-04-21,operational,v1.0.0
+ast-00124,t04,t04 cctv #124,cctv,carrier,2016-07-24,2020-10-11,monthly,2026-06-04,operational,v1.0.0
+ast-00125,t04,t04 lift #125,lift,honeywell,2010-03-13,2013-11-02,monthly,2014-03-06,operational,v1.0.0
+ast-00126,t04,t04 generator #126,generator,honeywell,2011-04-13,2016-01-08,monthly,2020-09-13,operational,v1.0.0
+ast-00127,t04,t04 lift #127,lift,daikin,2011-12-22,2015-12-20,quarterly,2024-08-23,operational,v1.0.0
+ast-00128,t04,t04 water pump #128,water pump,carrier,2016-08-03,2018-07-31,bi-annual,2021-07-30,operational,v1.0.0
+ast-00129,t04,t04 generator #129,generator,schindler,2032-01-01,2008-07-17,annual,2011-01-29,operational,v1.0.0
+ast-00130,t04,t04 cctv #130,cctv,cummins,2014-06-20,2016-10-08,quarterly,2017-07-20,operational,v1.0.0
+ast-00131,t04,t04 water tank #131,water tank,daikin,2021-04-08,2023-02-04,quarterly,2021-12-02,failed,v1.0.0
+ast-00132,t04,t04 water tank #132,water tank,honeywell,2018-03-31,2019-07-11,quarterly,2019-05-29,under maintenance,v1.0.0
+ast-00133,t04,t04 water tank #133,water tank,hikvision,2012-09-18,2016-03-12,bi-annual,2018-06-26,operational,v1.0.0
+ast-00134,t04,t04 water pump #134,water pump,hikvision,2007-02-25,2012-02-02,quarterly,2024-09-28,operational,v1.0.0
+ast-00135,t04,t04 water pump #135,water pump,daikin,2008-01-17,2010-09-14,quarterly,2021-06-03,under maintenance,v1.0.0
+ast-00136,t04,t04 cctv #136,cctv,honeywell,2012-05-23,2015-10-10,annual,2022-01-11,operational,v1.0.0
+ast-00137,t05,t05 lift #137,lift,hikvision,2018-01-12,2021-01-28,bi-annual,2018-09-21,under maintenance,v1.0.0
+ast-00138,t05,t05 fire alarm #138,fire alarm,hikvision,2007-10-04,2009-02-09,bi-annual,2016-04-27,operational,v1.0.0
+ast-00139,t05,t05 generator #139,generator,hikvision,2032-01-01,2021-12-07,annual,2024-06-24,operational,v1.0.0
+ast-00140,t05,t05 generator #140,generator,honeywell,2012-04-19,2015-10-12,quarterly,2021-06-26,failed,v1.0.0
+ast-00141,t05,t05 water tank #141,water tank,honeywell,2020-12-31,2024-02-13,monthly,2022-08-15,operational,v1.0.0
+ast-00142,t05,t05 water pump #142,water pump,daikin,2018-12-08,2021-04-01,bi-annual,2024-01-25,operational,v1.0.0
+ast-00143,t05,t05 hvac unit #143,hvac unit,hikvision,2021-12-12,2024-08-10,quarterly,2025-06-07,operational,v1.0.0
+ast-00144,t05,t05 fire alarm #144,fire alarm,carrier,2022-09-28,2026-07-12,quarterly,2025-06-12,operational,v1.0.0
+ast-00145,t05,t05 cctv #145,cctv,schindler,2021-05-13,2023-03-06,monthly,2021-12-31,operational,v1.0.0
+ast-00146,t05,t05 cctv #146,cctv,otis,2007-04-04,2011-07-26,monthly,2026-03-17,failed,v1.0.0
+ast-00147,t05,t05 hvac unit #147,hvac unit,otis,2020-03-17,2022-08-26,monthly,2025-04-07,operational,v1.0.0
+ast-00148,t05,t05 generator #148,generator,honeywell,2010-08-02,2012-07-28,monthly,2023-12-02,operational,v1.0.0
+ast-00149,t05,t05 cctv #149,cctv,carrier,2014-01-27,2016-03-23,bi-annual,2019-06-06,operational,v1.0.0
+ast-00150,t05,t05 lift #150,lift,hikvision,2020-10-11,2023-08-02,quarterly,2021-05-08,operational,v1.0.0
+ast-00151,t05,t05 hvac unit #151,hvac unit,cummins,2010-05-09,2015-04-29,monthly,2017-01-16,operational,v1.0.0
+ast-00152,t05,t05 lift #152,lift,hikvision,2011-11-06,2016-08-15,quarterly,2026-02-13,under maintenance,v1.0.0
+ast-00153,t05,t05 fire alarm #153,fire alarm,otis,2007-05-04,2009-06-07,bi-annual,2024-06-16,operational,v1.0.0
+ast-00154,t05,t05 lift #154,lift,schindler,2019-08-02,2021-10-07,bi-annual,2022-05-23,operational,v1.0.0
+ast-00155,t05,t05 water pump #155,water pump,schindler,2018-08-21,2020-03-28,quarterly,2024-02-26,operational,v1.0.0
+ast-00156,t05,t05 water pump #156,water pump,carrier,2024-09-10,2027-12-04,bi-annual,2026-04-15,under maintenance,v1.0.0
+ast-00157,t05,t05 hvac unit #157,hvac unit,carrier,2008-02-06,2012-03-09,bi-annual,2023-08-10,failed,v1.0.0
+ast-00158,t05,t05 lift #158,lift,otis,2015-02-02,2016-10-01,monthly,2024-07-15,operational,v1.0.0
+ast-00159,t05,t05 cctv #159,cctv,daikin,2015-11-05,2017-10-30,monthly,2020-01-25,operational,v1.0.0
+ast-00160,t05,t05 water pump #160,water pump,daikin,2018-08-23,2021-06-12,quarterly,2021-07-07,operational,v1.0.0
+ast-00161,t05,t05 water pump #161,water pump,carrier,2013-10-28,2017-04-03,annual,2016-05-24,operational,v1.0.0
+ast-00162,t05,t05 hvac unit #162,hvac unit,carrier,2023-08-05,2027-01-03,quarterly,2023-12-15,operational,v1.0.0
+ast-00163,t05,t05 fire alarm #163,fire alarm,daikin,2020-05-06,2023-11-19,annual,2020-08-25,operational,v1.0.0
+ast-00164,t05,t05 lift #164,lift,kone,2014-11-22,2016-04-30,annual,2017-10-27,operational,v1.0.0
+ast-00165,t05,t05 fire alarm #165,fire alarm,cummins,2032-01-01,2014-12-11,bi-annual,2017-04-17,operational,v1.0.0
+ast-00166,t05,t05 hvac unit #166,hvac unit,hikvision,2025-06-01,2030-02-17,annual,2012-10-26,operational,v1.0.0
+ast-00167,t05,t05 lift #167,lift,daikin,2022-04-08,2023-07-24,monthly,2023-11-17,operational,v1.0.0
+ast-00168,t05,t05 fire alarm #168,fire alarm,cummins,2011-08-12,2013-03-15,bi-annual,2026-02-26,operational,v1.0.0
+ast-00169,t05,t05 generator #169,generator,carrier,2008-10-02,2013-08-14,monthly,2021-05-09,operational,v1.0.0
+ast-00170,t05,t05 cctv #170,cctv,honeywell,2007-12-14,2009-08-09,quarterly,2021-08-28,operational,v1.0.0
+ast-00171,t06,t06 lift #171,lift,carrier,2032-01-01,2021-02-20,monthly,2022-06-11,operational,v1.0.0
+ast-00172,t06,t06 fire alarm #172,fire alarm,honeywell,2019-08-22,2021-05-13,annual,2023-09-17,operational,v1.0.0
+ast-00173,t06,t06 generator #173,generator,honeywell,2021-01-06,2024-04-21,bi-annual,2024-11-22,operational,v1.0.0
+ast-00174,t06,t06 lift #174,lift,daikin,2021-10-29,2025-09-01,quarterly,2026-02-22,operational,v1.0.0
+ast-00175,t06,t06 cctv #175,cctv,carrier,2011-07-28,2016-01-17,quarterly,2021-03-29,operational,v1.0.0
+ast-00176,t06,t06 generator #176,generator,otis,2017-05-17,2021-05-18,annual,2025-04-19,operational,v1.0.0
+ast-00177,t06,t06 generator #177,generator,hikvision,2008-01-15,2011-08-26,quarterly,2017-04-19,operational,v1.0.0
+ast-00178,t06,t06 water tank #178,water tank,daikin,2022-03-31,2025-02-12,annual,2026-04-28,failed,v1.0.0
+ast-00179,t06,t06 lift #179,lift,cummins,2009-11-24,2013-03-06,monthly,2014-05-18,operational,v1.0.0
+ast-00180,t06,t06 generator #180,generator,honeywell,2032-01-01,2027-04-16,quarterly,2026-01-22,operational,v1.0.0
+ast-00181,t06,t06 cctv #181,cctv,daikin,2011-02-21,2014-01-22,bi-annual,2024-08-11,operational,v1.0.0
+ast-00182,t06,t06 water tank #182,water tank,honeywell,2017-02-21,2018-05-29,quarterly,2021-12-27,operational,v1.0.0
+ast-00183,t06,t06 lift #183,lift,kone,2011-10-25,2014-04-16,annual,2023-12-19,operational,v1.0.0
+ast-00184,t06,t06 cctv #184,cctv,honeywell,2009-08-21,2011-06-25,monthly,2021-05-24,operational,v1.0.0
+ast-00185,t06,t06 lift #185,lift,carrier,2015-05-29,2019-08-29,quarterly,2017-10-12,operational,v1.0.0
+ast-00186,t06,t06 generator #186,generator,honeywell,2023-07-08,2026-04-07,bi-annual,2024-04-06,under maintenance,v1.0.0
+ast-00187,t06,t06 hvac unit #187,hvac unit,schindler,2018-06-22,2019-08-28,bi-annual,2025-01-20,operational,v1.0.0
+ast-00188,t06,t06 water pump #188,water pump,kone,2032-01-01,2026-04-23,bi-annual,2024-04-30,operational,v1.0.0
+ast-00189,t06,t06 fire alarm #189,fire alarm,kone,2021-11-11,2026-08-13,quarterly,2025-10-27,operational,v1.0.0
+ast-00190,t06,t06 water tank #190,water tank,daikin,2017-03-02,2019-07-30,monthly,2022-06-05,under maintenance,v1.0.0
+ast-00191,t06,t06 hvac unit #191,hvac unit,cummins,2015-04-09,2019-12-18,bi-annual,2025-03-27,operational,v1.0.0
+ast-00192,t06,t06 generator #192,generator,kone,2023-09-13,2028-06-09,annual,2025-08-03,failed,v1.0.0
+ast-00193,t06,t06 lift #193,lift,otis,2009-08-20,2014-04-23,bi-annual,2017-08-24,failed,v1.0.0
+ast-00194,t06,t06 water pump #194,water pump,carrier,2024-11-27,2028-08-21,annual,2025-06-18,failed,v1.0.0
+ast-00195,t06,t06 fire alarm #195,fire alarm,otis,2023-02-15,2026-02-26,annual,2023-06-10,operational,v1.0.0
+ast-00196,t06,t06 water tank #196,water tank,schindler,2032-01-01,2028-03-08,bi-annual,2024-10-25,operational,v1.0.0
+ast-00197,t06,t06 cctv #197,cctv,honeywell,2023-06-14,2028-05-16,monthly,2024-09-17,operational,v1.0.0
+ast-00198,t06,t06 water pump #198,water pump,cummins,2023-12-28,2025-07-06,quarterly,2024-12-03,under maintenance,v1.0.0
+ast-00199,t06,t06 water tank #199,water tank,honeywell,2011-08-04,2015-10-18,quarterly,2012-11-25,failed,v1.0.0
+ast-00200,t06,t06 cctv #200,cctv,carrier,2020-01-11,2023-09-23,annual,2025-10-05,operational,v1.0.0
+ast-00201,t06,t06 cctv #201,cctv,carrier,2017-09-09,2021-05-19,bi-annual,2025-08-24,operational,v1.0.0
+ast-00202,t06,t06 generator #202,generator,daikin,2022-05-14,2025-07-04,bi-annual,2023-09-30,operational,v1.0.0
+ast-00203,t06,t06 generator #203,generator,kone,2009-01-17,2012-05-14,quarterly,2016-10-23,failed,v1.0.0
+ast-00204,t07,t07 lift #204,lift,otis,2011-02-05,2015-04-09,annual,2016-08-18,operational,v1.0.0
+ast-00205,t07,t07 fire alarm #205,fire alarm,daikin,2010-02-10,2013-10-28,monthly,2024-03-20,operational,v1.0.0
+ast-00206,t07,t07 generator #206,generator,schindler,2008-06-03,2013-05-13,monthly,2018-09-07,operational,v1.0.0
+ast-00207,t07,t07 hvac unit #207,hvac unit,hikvision,2011-05-25,2015-05-17,monthly,2015-01-21,failed,v1.0.0
+ast-00208,t07,t07 generator #208,generator,otis,2015-09-12,2020-06-04,annual,2017-11-21,failed,v1.0.0
+ast-00209,t07,t07 fire alarm #209,fire alarm,kone,2015-01-29,2019-08-21,monthly,2017-09-14,operational,v1.0.0
+ast-00210,t07,t07 water pump #210,water pump,cummins,2021-12-19,2024-04-14,monthly,2025-01-31,under maintenance,v1.0.0
+ast-00211,t07,t07 water tank #211,water tank,honeywell,2008-02-24,2012-12-07,annual,2011-05-19,operational,v1.0.0
+ast-00212,t07,t07 lift #212,lift,carrier,2011-10-15,2014-07-24,monthly,2017-03-31,operational,v1.0.0
+ast-00213,t07,t07 fire alarm #213,fire alarm,cummins,2023-11-13,2028-04-05,quarterly,2025-10-14,operational,v1.0.0
+ast-00214,t07,t07 water pump #214,water pump,hikvision,2013-09-08,2016-11-16,quarterly,2019-05-09,operational,v1.0.0
+ast-00215,t07,t07 generator #215,generator,carrier,2018-07-23,2019-08-26,quarterly,2026-01-29,operational,v1.0.0
+ast-00216,t07,t07 lift #216,lift,otis,2024-02-19,2026-05-25,bi-annual,2024-05-31,operational,v1.0.0
+ast-00217,t07,t07 water pump #217,water pump,kone,2018-03-26,2019-04-15,quarterly,2025-02-14,failed,v1.0.0
+ast-00218,t07,t07 lift #218,lift,hikvision,2011-06-22,2016-04-03,quarterly,2019-09-29,operational,v1.0.0
+ast-00219,t07,t07 lift #219,lift,otis,2011-08-21,2014-07-17,monthly,2016-12-31,operational,v1.0.0
+ast-00220,t07,t07 cctv #220,cctv,schindler,2016-11-01,2020-07-12,annual,2019-06-16,under maintenance,v1.0.0
+ast-00221,t07,t07 water tank #221,water tank,kone,2016-10-24,2019-08-10,quarterly,2026-02-02,operational,v1.0.0
+ast-00222,t07,t07 lift #222,lift,schindler,2009-11-25,2012-07-31,quarterly,2022-11-29,operational,v1.0.0
+ast-00223,t07,t07 cctv #223,cctv,schindler,2012-12-04,2015-12-15,monthly,2025-04-17,operational,v1.0.0
+ast-00224,t07,t07 hvac unit #224,hvac unit,honeywell,2023-10-12,2024-10-14,bi-annual,2025-10-07,failed,v1.0.0
+ast-00225,t07,t07 water tank #225,water tank,schindler,2018-08-20,2021-05-12,monthly,2024-11-21,operational,v1.0.0
+ast-00226,t07,t07 water tank #226,water tank,cummins,2015-05-30,2017-12-05,monthly,2016-02-17,operational,v1.0.0
+ast-00227,t07,t07 generator #227,generator,cummins,2021-03-11,2025-12-29,annual,2022-01-10,operational,v1.0.0
+ast-00228,t07,t07 hvac unit #228,hvac unit,carrier,2018-01-24,2022-07-07,quarterly,2025-01-04,operational,v1.0.0
+ast-00229,t07,t07 water tank #229,water tank,kone,2012-07-19,2013-12-18,bi-annual,2013-03-19,operational,v1.0.0
+ast-00230,t07,t07 hvac unit #230,hvac unit,otis,2023-01-20,2024-05-05,monthly,2024-06-03,operational,v1.0.0
+ast-00231,t07,t07 generator #231,generator,cummins,2022-01-21,2026-05-28,bi-annual,2024-09-06,operational,v1.0.0
+ast-00232,t07,t07 water tank #232,water tank,honeywell,2017-05-31,2019-01-20,annual,2019-03-29,operational,v1.0.0
+ast-00233,t07,t07 fire alarm #233,fire alarm,daikin,2008-04-27,2012-09-21,quarterly,2017-12-18,under maintenance,v1.0.0
+ast-00234,t07,t01 cctv #33,lift,hikvision,2009-09-06,2010-10-23,annual,2013-10-25,operational,v1.0.0
+ast-00235,t07,t01 cctv #33,water pump,schindler,2015-08-17,2019-08-11,annual,2022-09-10,operational,v1.0.0
+ast-00236,t07,t07 generator #236,generator,carrier,2019-01-07,2022-05-11,bi-annual,2020-11-23,operational,v1.0.0
+ast-00237,t08,t08 lift #237,lift,daikin,2014-03-31,2017-04-15,annual,2018-12-29,operational,v1.0.0
+ast-00238,t08,t08 fire alarm #238,fire alarm,hikvision,2008-05-12,2012-06-22,bi-annual,2024-05-14,operational,v1.0.0
+ast-00239,t08,t08 generator #239,generator,cummins,2008-03-01,2012-01-05,bi-annual,2016-03-08,under maintenance,v1.0.0
+ast-00240,t08,t08 fire alarm #240,fire alarm,cummins,2016-01-22,2020-04-30,annual,2020-02-26,operational,v1.0.0
+ast-00241,t08,t08 hvac unit #241,hvac unit,honeywell,2032-01-01,2010-03-27,monthly,2016-07-03,operational,v1.0.0
+ast-00242,t08,t08 generator #242,generator,carrier,2016-07-15,2020-02-20,bi-annual,2023-05-03,operational,v1.0.0
+ast-00243,t08,t08 fire alarm #243,fire alarm,schindler,2023-12-07,2025-06-27,bi-annual,2025-01-23,operational,v1.0.0
+ast-00244,t08,t08 water pump #244,water pump,schindler,2016-03-02,2019-12-27,annual,2021-05-14,failed,v1.0.0
+ast-00245,t08,t08 hvac unit #245,hvac unit,kone,2019-07-17,2022-08-28,bi-annual,2025-03-23,operational,v1.0.0
+ast-00246,t08,t08 fire alarm #246,fire alarm,hikvision,2009-12-24,2013-03-16,quarterly,2019-03-13,operational,v1.0.0
+ast-00247,t08,t08 generator #247,generator,carrier,2014-01-18,2018-12-30,monthly,2018-03-31,operational,v1.0.0
+ast-00248,t08,t08 cctv #248,cctv,schindler,2016-01-23,2017-11-09,monthly,2024-09-12,operational,v1.0.0
+ast-00249,t08,t08 generator #249,generator,schindler,2011-02-01,2015-07-13,quarterly,2014-09-16,operational,v1.0.0
+ast-00250,t08,t08 cctv #250,cctv,carrier,2012-11-03,2013-11-28,bi-annual,2016-11-01,operational,v1.0.0
+ast-00251,t08,t08 water pump #251,water pump,honeywell,2009-09-23,2012-11-13,monthly,2012-10-28,operational,v1.0.0
+ast-00252,t08,t08 lift #252,lift,otis,2018-11-03,2022-09-15,bi-annual,2024-02-15,under maintenance,v1.0.0
+ast-00253,t08,t08 fire alarm #253,fire alarm,carrier,2010-05-23,2011-12-08,bi-annual,2013-06-03,under maintenance,v1.0.0
+ast-00254,t08,t08 water pump #254,water pump,honeywell,2008-07-08,2012-08-28,quarterly,2022-01-07,failed,v1.0.0
+ast-00255,t08,t08 fire alarm #255,fire alarm,otis,2011-04-02,2013-07-09,annual,2018-10-07,operational,v1.0.0
+ast-00256,t08,t08 hvac unit #256,hvac unit,honeywell,2012-03-08,2015-02-17,quarterly,2017-04-06,under maintenance,v1.0.0
+ast-00257,t08,t08 generator #257,generator,schindler,2022-06-07,2026-07-07,monthly,2025-03-02,operational,v1.0.0
+ast-00258,t08,t08 water tank #258,water tank,otis,2012-08-11,2017-06-30,annual,2013-09-06,failed,v1.0.0
+ast-00259,t08,t08 fire alarm #259,fire alarm,otis,2010-06-16,2013-02-23,monthly,2023-06-09,operational,v1.0.0
+ast-00260,t08,t08 lift #260,lift,kone,2018-12-26,2023-05-22,monthly,2023-10-24,operational,v1.0.0
+ast-00261,t08,t08 fire alarm #261,fire alarm,honeywell,2024-03-21,2026-12-25,annual,2026-03-06,failed,v1.0.0
+ast-00262,t08,t08 hvac unit #262,hvac unit,carrier,2011-03-08,2012-10-01,monthly,2025-02-18,under maintenance,v1.0.0
+ast-00263,t08,t08 fire alarm #263,fire alarm,daikin,2024-10-18,2029-09-30,bi-annual,2025-11-22,operational,v1.0.0
+ast-00264,t08,t08 generator #264,generator,otis,2010-05-06,2012-12-21,monthly,2018-06-12,operational,v1.0.0
+ast-00265,t08,t08 water tank #265,water tank,carrier,2009-05-13,2012-01-16,monthly,2013-02-05,failed,v1.0.0
+ast-00266,t08,t08 generator #266,generator,honeywell,2013-11-26,2015-12-13,bi-annual,2026-03-20,under maintenance,v1.0.0
+ast-00267,t08,t08 lift #267,lift,honeywell,2012-08-20,2013-11-01,monthly,2023-02-25,operational,v1.0.0
+ast-00268,t08,t08 water tank #268,water tank,otis,2009-08-03,2012-09-05,monthly,2016-08-22,failed,v1.0.0
+ast-00269,t08,t08 generator #269,generator,cummins,2012-07-22,2014-09-14,monthly,2022-11-28,operational,v1.0.0
+ast-00270,t09,t09 lift #270,lift,honeywell,2020-10-29,2023-12-15,bi-annual,2025-08-30,failed,v1.0.0
+ast-00271,t09,t09 fire alarm #271,fire alarm,hikvision,2032-01-01,2015-04-02,quarterly,2024-04-20,operational,v1.0.0
+ast-00272,t09,t09 generator #272,generator,honeywell,2022-05-14,2025-09-11,annual,2025-10-21,operational,v1.0.0
+ast-00273,t09,t09 water tank #273,water tank,kone,2012-10-16,2017-07-24,quarterly,2018-07-09,operational,v1.0.0
+ast-00274,t09,t09 water tank #274,water tank,schindler,2014-04-09,2017-08-25,quarterly,2017-02-21,failed,v1.0.0
+ast-00275,t09,t09 cctv #275,cctv,carrier,2017-06-26,2018-11-30,bi-annual,2024-12-11,under maintenance,v1.0.0
+ast-00276,t09,t09 water tank #276,water tank,honeywell,2012-04-10,2017-03-30,quarterly,2020-12-17,operational,v1.0.0
+ast-00277,t09,t09 water tank #277,water tank,honeywell,2009-08-21,2012-02-06,annual,2023-03-13,operational,v1.0.0
+ast-00278,t09,t09 fire alarm #278,fire alarm,carrier,2020-12-06,2023-01-28,monthly,2023-09-08,under maintenance,v1.0.0
+ast-00279,t09,t09 cctv #279,cctv,kone,2019-12-25,2024-01-05,monthly,2025-05-16,operational,v1.0.0
+ast-00280,t09,t09 hvac unit #280,hvac unit,otis,2012-11-02,2016-09-23,monthly,2014-11-27,operational,v1.0.0
+ast-00281,t09,t09 lift #281,lift,schindler,2009-04-04,2011-07-20,quarterly,2014-07-31,operational,v1.0.0
+ast-00282,t09,t09 water tank #282,water tank,cummins,2020-11-22,2022-06-02,monthly,2022-06-19,operational,v1.0.0
+ast-00283,t09,t09 hvac unit #283,hvac unit,hikvision,2010-06-02,2014-01-09,quarterly,2012-09-14,operational,v1.0.0
+ast-00284,t09,t09 cctv #284,cctv,kone,2019-12-01,2023-10-10,monthly,2025-06-09,operational,v1.0.0
+ast-00285,t09,t09 lift #285,lift,honeywell,2021-02-13,2025-11-26,quarterly,2022-03-02,operational,v1.0.0
+ast-00286,t09,t09 hvac unit #286,hvac unit,daikin,2024-03-18,2026-12-03,bi-annual,2025-01-30,operational,v1.0.0
+ast-00287,t09,t09 cctv #287,cctv,otis,2022-11-28,2027-04-17,annual,2025-09-28,under maintenance,v1.0.0
+ast-00288,t09,t09 fire alarm #288,fire alarm,kone,2019-09-12,2023-12-25,bi-annual,2023-09-27,operational,v1.0.0
+ast-00289,t09,t09 generator #289,generator,kone,2022-04-05,2027-01-03,quarterly,2024-04-01,operational,v1.0.0
+ast-00290,t09,t09 lift #290,lift,cummins,2013-12-17,2016-08-11,monthly,2017-09-21,operational,v1.0.0
+ast-00291,t09,t09 water pump #291,water pump,daikin,2009-07-31,2011-04-11,monthly,2021-10-02,operational,v1.0.0
+ast-00292,t09,t09 water tank #292,water tank,kone,2020-01-28,2023-11-05,quarterly,2025-09-04,operational,v1.0.0
+ast-00293,t09,t09 generator #293,generator,honeywell,2032-01-01,2027-01-04,monthly,2026-04-01,operational,v1.0.0
+ast-00294,t09,t09 water tank #294,water tank,otis,2014-04-04,2016-07-04,quarterly,2019-05-04,operational,v1.0.0
+ast-00295,t09,t09 lift #295,lift,honeywell,2016-04-06,2020-01-26,quarterly,2018-03-05,operational,v1.0.0
+ast-00296,t09,t09 water pump #296,water pump,carrier,2011-09-03,2016-07-13,annual,2022-08-31,operational,v1.0.0
+ast-00297,t09,t01 cctv #33,water tank,kone,2021-06-26,2022-12-09,annual,2022-01-31,operational,v1.0.0
+ast-00298,t09,t09 fire alarm #298,fire alarm,schindler,2021-09-29,2022-12-27,bi-annual,2024-09-15,operational,v1.0.0
+ast-00299,t09,t09 generator #299,generator,honeywell,2025-03-16,2028-10-07,quarterly,2026-05-16,operational,v1.0.0
+ast-00300,t09,t09 water tank #300,water tank,daikin,2016-09-14,2018-07-23,bi-annual,2026-01-27,operational,v1.0.0
+ast-00301,t09,t09 water tank #301,water tank,hikvision,2024-06-10,2028-12-27,bi-annual,2024-10-20,operational,v1.0.0
+ast-00302,t09,t09 fire alarm #302,fire alarm,carrier,2032-01-01,2029-02-15,bi-annual,2025-04-09,operational,v1.0.0
+ast-00303,t10,t10 lift #303,lift,carrier,2016-03-09,2018-06-24,annual,2022-08-25,operational,v1.0.0
+ast-00304,t10,t10 fire alarm #304,fire alarm,honeywell,2018-02-14,2019-09-08,annual,2021-05-20,operational,v1.0.0
+ast-00305,t10,t10 generator #305,generator,schindler,2018-06-26,2022-05-19,bi-annual,2012-10-26,operational,v1.0.0
+ast-00306,t10,t10 generator #306,generator,hikvision,2022-05-29,2027-05-08,bi-annual,2025-05-10,operational,v1.0.0
+ast-00307,t10,t10 generator #307,generator,kone,2016-12-04,2019-09-16,bi-annual,2017-03-14,operational,v1.0.0
+ast-00308,t10,t10 hvac unit #308,hvac unit,otis,2032-01-01,2021-07-17,quarterly,2025-07-01,operational,v1.0.0
+ast-00309,t10,t10 hvac unit #309,hvac unit,cummins,2012-01-22,2013-08-09,bi-annual,2017-02-27,operational,v1.0.0
+ast-00310,t10,t10 fire alarm #310,fire alarm,cummins,2019-07-31,2023-07-14,quarterly,2022-02-11,operational,v1.0.0
+ast-00311,t10,t10 generator #311,generator,schindler,2008-08-22,2012-02-11,quarterly,2025-04-09,operational,v1.0.0
+ast-00312,t10,t10 hvac unit #312,hvac unit,kone,2019-08-27,2021-04-19,quarterly,2021-07-29,failed,v1.0.0
+ast-00313,t10,t10 fire alarm #313,fire alarm,carrier,2013-08-09,2018-05-27,annual,2018-05-29,operational,v1.0.0
+ast-00314,t10,t10 cctv #314,cctv,schindler,2022-05-06,2024-05-09,monthly,2023-09-18,under maintenance,v1.0.0
+ast-00315,t10,t10 water pump #315,water pump,cummins,2015-06-16,2018-02-14,bi-annual,2025-10-14,failed,v1.0.0
+ast-00316,t10,t10 generator #316,generator,hikvision,2020-07-27,2024-03-30,quarterly,2021-03-15,operational,v1.0.0
+ast-00317,t10,t10 generator #317,generator,cummins,2021-10-23,2024-02-15,annual,2025-03-26,operational,v1.0.0
+ast-00318,t10,t10 cctv #318,cctv,honeywell,2020-09-20,2022-12-27,quarterly,2024-12-25,failed,v1.0.0
+ast-00319,t10,t10 water tank #319,water tank,schindler,2011-01-25,2014-08-24,annual,2019-05-08,under maintenance,v1.0.0
+ast-00320,t10,t10 water pump #320,water pump,honeywell,2020-05-07,2022-03-28,monthly,2021-05-30,operational,v1.0.0
+ast-00321,t10,t10 hvac unit #321,hvac unit,otis,2009-02-11,2010-06-15,monthly,2021-09-07,operational,v1.0.0
+ast-00322,t10,t10 water tank #322,water tank,daikin,2023-03-11,2027-07-25,bi-annual,2024-10-14,operational,v1.0.0
+ast-00323,t10,t10 lift #323,lift,honeywell,2022-05-26,2026-12-31,bi-annual,2022-06-29,operational,v1.0.0
+ast-00324,t10,t10 generator #324,generator,cummins,2021-03-17,2023-12-09,monthly,2022-05-21,operational,v1.0.0
+ast-00325,t10,t10 cctv #325,cctv,kone,2008-03-09,2012-07-11,quarterly,2018-03-30,operational,v1.0.0
+ast-00326,t10,t10 generator #326,generator,kone,2032-01-01,2023-11-26,monthly,2022-03-08,operational,v1.0.0
+ast-00327,t10,t10 water tank #327,water tank,cummins,2011-09-06,2016-04-18,quarterly,2013-07-30,failed,v1.0.0
+ast-00328,t10,t10 water tank #328,water tank,daikin,2022-12-03,2026-01-11,monthly,2024-01-31,operational,v1.0.0
+ast-00329,t10,t10 generator #329,generator,schindler,2010-09-04,2014-07-26,bi-annual,2025-06-15,operational,v1.0.0
+ast-00330,t10,t10 water pump #330,water pump,kone,2019-09-20,2023-05-30,annual,2025-06-09,operational,v1.0.0
+ast-00331,t10,t10 hvac unit #331,hvac unit,cummins,2022-10-05,2024-07-08,annual,2023-04-24,operational,v1.0.0
+ast-00332,t10,t10 lift #332,lift,schindler,2011-12-19,2013-05-26,annual,2013-03-01,under maintenance,v1.0.0
+ast-00333,t10,t10 cctv #333,cctv,schindler,2008-04-06,2010-03-05,monthly,2014-08-24,operational,v1.0.0
+ast-00334,t10,t10 water tank #334,water tank,honeywell,2015-07-18,2018-09-11,quarterly,2022-01-08,operational,v1.0.0
+ast-00335,t10,t10 generator #335,generator,cummins,2007-02-14,2011-02-24,annual,2011-12-04,failed,v1.0.0
+ast-00336,t11,t11 lift #336,lift,kone,2022-05-04,2025-03-29,monthly,2025-01-23,operational,v1.0.0
+ast-00337,t11,t11 fire alarm #337,fire alarm,carrier,2020-08-03,2023-10-02,quarterly,2025-04-12,operational,v1.0.0
+ast-00338,t11,t11 generator #338,generator,cummins,2032-01-01,2015-12-14,monthly,2017-09-06,under maintenance,v1.0.0
+ast-00339,t11,t11 fire alarm #339,fire alarm,otis,2008-09-18,2013-08-07,bi-annual,2021-01-22,under maintenance,v1.0.0
+ast-00340,t11,t11 fire alarm #340,fire alarm,otis,2020-05-03,2021-08-08,quarterly,2022-05-25,operational,v1.0.0
+ast-00341,t11,t11 generator #341,generator,schindler,2021-02-13,2024-05-26,bi-annual,2022-04-15,operational,v1.0.0
+ast-00342,t11,t11 lift #342,lift,kone,2006-11-30,2008-07-18,quarterly,2009-02-01,operational,v1.0.0
+ast-00343,t11,t11 cctv #343,cctv,cummins,2008-07-02,2009-12-26,monthly,2009-10-06,operational,v1.0.0
+ast-00344,t11,t11 cctv #344,cctv,schindler,2017-04-14,2018-06-28,bi-annual,2021-09-01,operational,v1.0.0
+ast-00345,t11,t11 generator #345,generator,hikvision,2021-11-01,2023-09-09,bi-annual,2025-02-22,operational,v1.0.0
+ast-00346,t11,t11 water tank #346,water tank,otis,2007-02-08,2012-01-19,annual,2022-04-08,operational,v1.0.0
+ast-00347,t11,t11 lift #347,lift,kone,2011-12-05,2013-06-10,quarterly,2018-09-01,under maintenance,v1.0.0
+ast-00348,t11,t11 lift #348,lift,honeywell,2016-10-17,2019-09-09,bi-annual,2019-05-27,operational,v1.0.0
+ast-00349,t11,t01 cctv #33,fire alarm,hikvision,2006-09-28,2008-11-18,annual,2016-09-17,failed,v1.0.0
+ast-00350,t11,t11 lift #350,lift,cummins,2015-04-17,2018-06-11,annual,2023-09-24,operational,v1.0.0
+ast-00351,t11,t11 lift #351,lift,carrier,2023-10-08,2027-07-13,bi-annual,2024-09-13,operational,v1.0.0
+ast-00352,t11,t11 generator #352,generator,schindler,2008-07-26,2011-06-12,bi-annual,2012-05-16,operational,v1.0.0
+ast-00353,t11,t11 generator #353,generator,schindler,2017-05-08,2021-09-12,bi-annual,2026-03-13,failed,v1.0.0
+ast-00354,t11,t11 generator #354,generator,daikin,2018-12-11,2023-05-01,annual,2024-01-26,operational,v1.0.0
+ast-00355,t11,t11 lift #355,lift,hikvision,2023-07-25,2028-01-09,bi-annual,2026-01-02,operational,v1.0.0
+ast-00356,t11,t11 water tank #356,water tank,cummins,2009-11-05,2014-06-21,quarterly,2014-03-02,operational,v1.0.0
+ast-00357,t11,t11 water pump #357,water pump,honeywell,2023-11-16,2025-06-25,bi-annual,2025-02-26,operational,v1.0.0
+ast-00358,t11,t11 cctv #358,cctv,honeywell,2012-09-23,2017-02-08,bi-annual,2021-02-13,operational,v1.0.0
+ast-00359,t11,t01 cctv #33,cctv,honeywell,2032-01-01,2009-03-30,monthly,2013-01-07,operational,v1.0.0
+ast-00360,t11,t11 cctv #360,cctv,kone,2010-04-02,2012-09-17,annual,2015-02-15,operational,v1.0.0
+ast-00361,t11,t11 lift #361,lift,honeywell,2006-08-21,2010-09-16,bi-annual,2007-04-27,operational,v1.0.0
+ast-00362,t11,t11 lift #362,lift,carrier,2017-07-11,2021-05-05,bi-annual,2024-11-02,operational,v1.0.0
+ast-00363,t11,t01 cctv #33,hvac unit,cummins,2019-07-13,2024-01-30,annual,2025-11-29,operational,v1.0.0
+ast-00364,t11,t11 water tank #364,water tank,kone,2019-08-06,2021-05-04,bi-annual,2023-08-06,under maintenance,v1.0.0
+ast-00365,t11,t11 water pump #365,water pump,carrier,2020-08-25,2023-10-21,bi-annual,2022-08-11,operational,v1.0.0
+ast-00366,t11,t11 water pump #366,water pump,cummins,2010-05-10,2014-04-25,annual,2017-10-15,failed,v1.0.0
+ast-00367,t11,t11 lift #367,lift,otis,2032-01-01,2011-02-18,bi-annual,2011-08-02,operational,v1.0.0
+ast-00368,t11,t11 cctv #368,cctv,honeywell,2013-07-16,2014-07-27,bi-annual,2025-10-21,operational,v1.0.0
+ast-00369,t12,t12 lift #369,lift,daikin,2009-02-03,2013-08-01,bi-annual,2017-06-06,operational,v1.0.0
+ast-00370,t12,t12 fire alarm #370,fire alarm,honeywell,2023-10-09,2027-11-27,bi-annual,2026-03-24,operational,v1.0.0
+ast-00371,t12,t12 generator #371,generator,otis,2007-02-26,2009-03-02,quarterly,2008-03-02,operational,v1.0.0
+ast-00372,t12,t12 lift #372,lift,carrier,2010-01-31,2014-08-15,annual,2010-08-13,operational,v1.0.0
+ast-00373,t12,t12 lift #373,lift,carrier,2019-04-16,2020-11-22,monthly,2026-05-05,operational,v1.0.0
+ast-00374,t12,t12 water tank #374,water tank,kone,2010-09-03,2011-12-29,annual,2015-06-30,operational,v1.0.0
+ast-00375,t12,t12 fire alarm #375,fire alarm,carrier,2012-09-05,2014-12-03,monthly,2016-03-17,operational,v1.0.0
+ast-00376,t12,t12 water pump #376,water pump,kone,2023-11-02,2025-05-07,quarterly,2025-03-13,operational,v1.0.0
+ast-00377,t12,t12 hvac unit #377,hvac unit,carrier,2009-07-28,2013-04-15,annual,2010-04-13,operational,v1.0.0
+ast-00378,t12,t12 water tank #378,water tank,cummins,2006-09-24,2010-04-20,annual,2020-01-25,failed,v1.0.0
+ast-00379,t12,t12 water pump #379,water pump,otis,2007-06-28,2012-05-26,annual,2012-10-26,failed,v1.0.0
+ast-00380,t12,t12 water tank #380,water tank,schindler,2007-06-10,2011-08-22,annual,2025-05-05,operational,v1.0.0
+ast-00381,t12,t12 generator #381,generator,hikvision,2018-06-26,2021-10-20,annual,2019-02-04,operational,v1.0.0
+ast-00382,t12,t12 cctv #382,cctv,cummins,2014-11-14,2017-07-04,monthly,2016-02-09,failed,v1.0.0
+ast-00383,t12,t12 cctv #383,cctv,hikvision,2024-01-05,2027-11-21,annual,2024-09-11,operational,v1.0.0
+ast-00384,t12,t12 lift #384,lift,otis,2008-09-29,2010-02-22,monthly,2021-01-11,failed,v1.0.0
+ast-00385,t12,t12 hvac unit #385,hvac unit,cummins,2032-01-01,2016-07-05,monthly,2019-02-28,operational,v1.0.0
+ast-00386,t12,t12 hvac unit #386,hvac unit,honeywell,2006-10-28,2007-12-09,quarterly,2012-10-26,failed,v1.0.0
+ast-00387,t12,t12 hvac unit #387,hvac unit,daikin,2022-06-16,2024-02-10,monthly,2023-06-27,operational,v1.0.0
+ast-00388,t12,t12 fire alarm #388,fire alarm,otis,2018-04-12,2019-10-25,monthly,2018-10-05,failed,v1.0.0
+ast-00389,t12,t12 fire alarm #389,fire alarm,otis,2008-12-18,2012-02-01,monthly,2021-09-30,operational,v1.0.0
+ast-00390,t12,t12 fire alarm #390,fire alarm,cummins,2007-11-13,2011-01-03,monthly,2018-05-03,operational,v1.0.0
+ast-00391,t12,t12 water pump #391,water pump,hikvision,2024-07-15,2026-02-25,quarterly,2025-05-29,operational,v1.0.0
+ast-00392,t12,t12 cctv #392,cctv,otis,2032-01-01,2008-09-05,annual,2019-04-15,operational,v1.0.0
+ast-00393,t12,t12 generator #393,generator,hikvision,2019-08-28,2021-05-30,monthly,2012-10-26,operational,v1.0.0
+ast-00394,t12,t12 water pump #394,water pump,cummins,2015-09-21,2019-03-22,monthly,2017-06-09,under maintenance,v1.0.0
+ast-00395,t12,t12 water pump #395,water pump,hikvision,2007-11-14,2009-09-28,bi-annual,2026-03-06,under maintenance,v1.0.0
+ast-00396,t12,t12 cctv #396,cctv,honeywell,2018-02-04,2019-04-18,monthly,2019-12-09,under maintenance,v1.0.0
+ast-00397,t12,t12 lift #397,lift,honeywell,2006-06-26,2010-05-22,bi-annual,2021-06-11,operational,v1.0.0
+ast-00398,t12,t12 lift #398,lift,honeywell,2011-02-24,2015-02-02,bi-annual,2012-05-11,operational,v1.0.0
+ast-00399,t12,t12 lift #399,lift,schindler,2025-05-19,2027-05-03,annual,2025-11-15,operational,v1.0.0
+ast-00400,t12,t12 hvac unit #400,hvac unit,cummins,2020-08-06,2022-12-20,bi-annual,2024-11-18,operational,v1.0.0
+ast-00401,t12,t12 water pump #401,water pump,daikin,2018-12-23,2022-10-18,quarterly,2024-01-09,operational,v1.0.0
+ast-00402,t13,t13 lift #402,lift,daikin,2008-09-14,2012-06-11,monthly,2021-03-23,failed,v1.0.0
+ast-00403,t13,t01 cctv #33,fire alarm,hikvision,2024-06-10,2027-02-12,annual,2026-03-28,operational,v1.0.0
+ast-00404,t13,t13 generator #404,generator,hikvision,2016-08-24,2020-02-29,monthly,2025-03-23,operational,v1.0.0
+ast-00405,t13,t01 cctv #33,lift,carrier,2011-03-27,2013-02-09,monthly,2024-12-19,under maintenance,v1.0.0
+ast-00406,t13,t13 water pump #406,water pump,hikvision,2011-02-17,2012-05-12,bi-annual,2016-12-22,operational,v1.0.0
+ast-00407,t13,t13 lift #407,lift,honeywell,2006-12-30,2011-05-02,bi-annual,2014-06-05,failed,v1.0.0
+ast-00408,t13,t13 cctv #408,cctv,otis,2008-12-27,2011-09-11,quarterly,2018-03-14,operational,v1.0.0
+ast-00409,t13,t13 lift #409,lift,schindler,2009-12-30,2014-07-18,annual,2020-03-05,operational,v1.0.0
+ast-00410,t13,t13 hvac unit #410,hvac unit,cummins,2014-03-02,2018-06-05,quarterly,2018-12-31,operational,v1.0.0
+ast-00411,t13,t13 water pump #411,water pump,honeywell,2022-02-24,2024-02-14,bi-annual,2024-11-09,operational,v1.0.0
+ast-00412,t13,t13 fire alarm #412,fire alarm,carrier,2008-06-19,2012-06-17,bi-annual,2022-09-17,operational,v1.0.0
+ast-00413,t13,t13 water tank #413,water tank,kone,2015-10-26,2020-09-04,quarterly,2019-04-28,operational,v1.0.0
+ast-00414,t13,t13 hvac unit #414,hvac unit,otis,2009-01-23,2010-03-25,bi-annual,2025-04-17,failed,v1.0.0
+ast-00415,t13,t01 cctv #33,water pump,carrier,2020-03-08,2023-05-04,bi-annual,2024-12-04,under maintenance,v1.0.0
+ast-00416,t13,t13 lift #416,lift,schindler,2020-11-29,2025-01-06,quarterly,2024-02-04,failed,v1.0.0
+ast-00417,t13,t13 water pump #417,water pump,schindler,2018-07-28,2021-06-08,quarterly,2021-05-25,operational,v1.0.0
+ast-00418,t13,t13 lift #418,lift,honeywell,2008-01-23,2011-12-30,annual,2021-07-27,operational,v1.0.0
+ast-00419,t13,t13 water tank #419,water tank,kone,2010-05-19,2013-06-11,quarterly,2017-04-06,operational,v1.0.0
+ast-00420,t13,t13 fire alarm #420,fire alarm,daikin,2006-07-23,2011-06-25,annual,2020-06-05,operational,v1.0.0
+ast-00421,t13,t13 cctv #421,cctv,honeywell,2011-02-05,2014-04-27,annual,2012-10-26,operational,v1.0.0
+ast-00422,t13,t13 cctv #422,cctv,otis,2014-08-14,2015-08-30,monthly,2016-12-04,under maintenance,v1.0.0
+ast-00423,t13,t01 cctv #33,cctv,daikin,2017-06-09,2021-05-26,monthly,2018-09-24,operational,v1.0.0
+ast-00424,t13,t13 water tank #424,water tank,otis,2017-06-29,2019-11-09,bi-annual,2024-05-29,operational,v1.0.0
+ast-00425,t13,t13 hvac unit #425,hvac unit,otis,2013-03-12,2016-10-14,annual,2012-10-26,operational,v1.0.0
+ast-00426,t13,t13 water tank #426,water tank,honeywell,2020-11-23,2025-04-05,bi-annual,2023-06-29,operational,v1.0.0
+ast-00427,t13,t13 water tank #427,water tank,honeywell,2007-01-11,2011-06-04,monthly,2024-01-02,operational,v1.0.0
+ast-00428,t13,t13 cctv #428,cctv,kone,2024-07-24,2029-03-27,bi-annual,2026-05-03,operational,v1.0.0
+ast-00429,t13,t13 generator #429,generator,cummins,2018-10-24,2021-01-18,annual,2019-01-23,failed,v1.0.0
+ast-00430,t13,t13 generator #430,generator,carrier,2020-05-16,2022-02-23,quarterly,2020-08-11,operational,v1.0.0
+ast-00431,t13,t13 fire alarm #431,fire alarm,schindler,2015-05-31,2020-01-07,annual,2020-02-15,operational,v1.0.0
+ast-00432,t13,t13 water pump #432,water pump,daikin,2020-12-28,2022-11-30,monthly,2025-12-16,operational,v1.0.0
+ast-00433,t13,t13 water pump #433,water pump,honeywell,2023-06-17,2026-03-11,quarterly,2024-12-02,operational,v1.0.0
+ast-00434,t13,t13 fire alarm #434,fire alarm,carrier,2012-01-16,2015-11-11,quarterly,2022-10-17,operational,v1.0.0
+ast-00435,t14,t14 lift #435,lift,honeywell,2009-03-08,2010-12-08,bi-annual,2024-10-01,operational,v1.0.0
+ast-00436,t14,t14 fire alarm #436,fire alarm,daikin,2024-04-12,2027-04-10,bi-annual,2012-10-26,operational,v1.0.0
+ast-00437,t14,t14 generator #437,generator,cummins,2032-01-01,2017-05-08,quarterly,2017-07-18,under maintenance,v1.0.0
+ast-00438,t14,t14 cctv #438,cctv,schindler,2010-10-23,2013-07-09,quarterly,2018-05-17,operational,v1.0.0
+ast-00439,t14,t14 hvac unit #439,hvac unit,carrier,2007-07-15,2010-02-23,quarterly,2015-03-29,operational,v1.0.0
+ast-00440,t14,t14 generator #440,generator,hikvision,2022-09-08,2023-10-21,monthly,2022-10-27,operational,v1.0.0
+ast-00441,t14,t14 water pump #441,water pump,honeywell,2022-12-20,2026-08-15,quarterly,2025-07-19,operational,v1.0.0
+ast-00442,t14,t14 fire alarm #442,fire alarm,hikvision,2012-09-25,2017-05-15,annual,2013-07-08,operational,v1.0.0
+ast-00443,t14,t14 water pump #443,water pump,daikin,2022-07-21,2025-12-19,bi-annual,2025-12-19,operational,v1.0.0
+ast-00444,t14,t14 lift #444,lift,schindler,2007-06-16,2009-10-22,bi-annual,2023-12-07,operational,v1.0.0
+ast-00445,t14,t14 water tank #445,water tank,schindler,2008-11-13,2011-11-02,bi-annual,2013-05-01,under maintenance,v1.0.0
+ast-00446,t14,t14 cctv #446,cctv,daikin,2016-06-12,2021-05-01,monthly,2018-11-03,operational,v1.0.0
+ast-00447,t14,t14 hvac unit #447,hvac unit,cummins,2021-06-26,2024-06-29,monthly,2022-06-14,operational,v1.0.0
+ast-00448,t14,t14 water tank #448,water tank,cummins,2022-09-01,2024-11-26,bi-annual,2023-04-13,operational,v1.0.0
+ast-00449,t14,t14 generator #449,generator,daikin,2022-09-10,2026-06-10,annual,2024-02-08,operational,v1.0.0
+ast-00450,t14,t14 hvac unit #450,hvac unit,otis,2022-03-29,2024-11-20,bi-annual,2012-10-26,operational,v1.0.0
+ast-00451,t14,t14 cctv #451,cctv,cummins,2032-01-01,2020-01-21,monthly,2019-05-10,operational,v1.0.0
+ast-00452,t14,t14 lift #452,lift,daikin,2015-03-01,2016-07-18,bi-annual,2017-11-01,operational,v1.0.0
+ast-00453,t14,t14 generator #453,generator,kone,2009-10-22,2014-07-23,bi-annual,2021-05-28,operational,v1.0.0
+ast-00454,t14,t14 water pump #454,water pump,schindler,2007-11-08,2010-05-31,bi-annual,2020-01-05,operational,v1.0.0
+ast-00455,t14,t14 fire alarm #455,fire alarm,hikvision,2015-09-17,2017-08-07,bi-annual,2023-11-19,operational,v1.0.0
+ast-00456,t14,t14 hvac unit #456,hvac unit,otis,2020-12-16,2025-09-24,quarterly,2025-05-28,operational,v1.0.0
+ast-00457,t14,t01 cctv #33,water pump,hikvision,2025-06-03,2030-01-12,annual,2026-05-05,operational,v1.0.0
+ast-00458,t14,t14 water tank #458,water tank,honeywell,2032-01-01,2015-07-18,monthly,2016-06-01,operational,v1.0.0
+ast-00459,t14,t14 hvac unit #459,hvac unit,kone,2018-05-16,2020-08-13,annual,2022-11-27,operational,v1.0.0
+ast-00460,t14,t14 fire alarm #460,fire alarm,otis,2008-08-20,2011-08-14,quarterly,2009-07-11,operational,v1.0.0
+ast-00461,t14,t14 water tank #461,water tank,honeywell,2008-12-27,2013-01-19,bi-annual,2016-02-09,operational,v1.0.0
+ast-00462,t14,t14 hvac unit #462,hvac unit,daikin,2018-11-22,2020-05-01,monthly,2023-09-08,operational,v1.0.0
+ast-00463,t14,t14 lift #463,lift,honeywell,2008-04-01,2009-09-19,bi-annual,2010-04-14,operational,v1.0.0
+ast-00464,t14,t14 cctv #464,cctv,kone,2024-10-14,2026-09-27,annual,2025-12-14,operational,v1.0.0
+ast-00465,t14,t14 cctv #465,cctv,hikvision,2009-05-09,2014-03-28,quarterly,2024-02-26,operational,v1.0.0
+ast-00466,t14,t14 generator #466,generator,honeywell,2021-08-14,2023-11-29,quarterly,2025-07-16,operational,v1.0.0
+ast-00467,t14,t14 hvac unit #467,hvac unit,hikvision,2022-03-08,2026-07-07,bi-annual,2025-12-16,operational,v1.0.0
+ast-00468,t15,t15 lift #468,lift,carrier,2017-11-13,2022-08-27,monthly,2023-01-02,operational,v1.0.0
+ast-00469,t15,t15 fire alarm #469,fire alarm,honeywell,2010-11-20,2013-07-13,monthly,2012-10-26,operational,v1.0.0
+ast-00470,t15,t15 generator #470,generator,schindler,2032-01-01,2016-05-10,bi-annual,2016-06-09,operational,v1.0.0
+ast-00471,t15,t15 water pump #471,water pump,honeywell,2020-06-14,2022-10-23,annual,2025-05-24,operational,v1.0.0
+ast-00472,t15,t15 hvac unit #472,hvac unit,kone,2010-01-02,2013-11-02,quarterly,2018-08-08,operational,v1.0.0
+ast-00473,t15,t15 lift #473,lift,hikvision,2006-11-14,2009-10-03,annual,2007-06-22,failed,v1.0.0
+ast-00474,t15,t15 water tank #474,water tank,honeywell,2024-06-04,2027-08-04,quarterly,2026-02-13,operational,v1.0.0
+ast-00475,t15,t15 cctv #475,cctv,honeywell,2015-11-10,2017-04-25,bi-annual,2016-06-20,operational,v1.0.0
+ast-00476,t15,t01 cctv #33,hvac unit,cummins,2008-12-07,2011-02-08,bi-annual,2012-01-24,failed,v1.0.0
+ast-00477,t15,t15 water tank #477,water tank,kone,2023-01-08,2027-08-28,bi-annual,2012-10-26,operational,v1.0.0
+ast-00478,t15,t15 water pump #478,water pump,daikin,2021-01-15,2025-03-24,bi-annual,2023-07-26,operational,v1.0.0
+ast-00479,t15,t15 water tank #479,water tank,otis,2012-05-07,2015-07-10,quarterly,2013-07-21,failed,v1.0.0
+ast-00480,t15,t15 fire alarm #480,fire alarm,otis,2025-04-02,2029-02-16,quarterly,2026-01-06,operational,v1.0.0
+ast-00481,t15,t15 fire alarm #481,fire alarm,otis,2009-06-25,2014-04-11,monthly,2022-08-11,operational,v1.0.0
+ast-00482,t15,t15 cctv #482,cctv,cummins,2014-01-29,2018-05-26,quarterly,2019-02-07,under maintenance,v1.0.0
+ast-00483,t15,t15 lift #483,lift,otis,2023-04-07,2026-07-31,annual,2025-03-17,failed,v1.0.0
+ast-00484,t15,t15 hvac unit #484,hvac unit,kone,2008-11-23,2011-12-04,annual,2019-03-21,operational,v1.0.0
+ast-00485,t15,t15 hvac unit #485,hvac unit,schindler,2009-06-09,2012-11-25,annual,2024-11-07,operational,v1.0.0
+ast-00486,t15,t15 generator #486,generator,daikin,2022-06-26,2025-03-14,quarterly,2025-11-29,operational,v1.0.0
+ast-00487,t15,t15 fire alarm #487,fire alarm,otis,2032-01-01,2015-07-31,annual,2023-02-12,operational,v1.0.0
+ast-00488,t15,t15 generator #488,generator,cummins,2014-06-15,2016-07-30,bi-annual,2016-04-11,operational,v1.0.0
+ast-00489,t15,t15 hvac unit #489,hvac unit,cummins,2012-08-27,2015-01-12,annual,2015-05-01,operational,v1.0.0
+ast-00490,t15,t15 generator #490,generator,daikin,2007-06-25,2009-07-02,annual,2025-02-17,operational,v1.0.0
+ast-00491,t15,t15 generator #491,generator,schindler,2015-12-09,2020-08-19,bi-annual,2020-03-02,failed,v1.0.0
+ast-00492,t15,t15 generator #492,generator,daikin,2015-08-14,2018-12-29,monthly,2022-09-20,operational,v1.0.0
+ast-00493,t15,t15 water tank #493,water tank,honeywell,2015-03-16,2017-02-25,bi-annual,2020-07-17,failed,v1.0.0
+ast-00494,t15,t15 water pump #494,water pump,daikin,2013-06-06,2018-04-25,bi-annual,2017-11-13,operational,v1.0.0
+ast-00495,t15,t15 lift #495,lift,daikin,2022-09-13,2025-01-04,bi-annual,2024-08-26,operational,v1.0.0
+ast-00496,t15,t15 lift #496,lift,hikvision,2016-05-27,2017-06-21,annual,2024-06-26,failed,v1.0.0
+ast-00497,t15,t15 cctv #497,cctv,honeywell,2018-02-13,2021-08-14,bi-annual,2021-08-01,operational,v1.0.0
+ast-00498,t15,t15 hvac unit #498,hvac unit,cummins,2009-07-12,2011-12-12,quarterly,2021-09-11,operational,v1.0.0
+ast-00499,t15,t15 generator #499,generator,honeywell,2011-08-21,2015-10-06,bi-annual,2015-09-08,operational,v1.0.0
+ast-00500,t15,t15 water tank #500,water tank,kone,2013-12-26,2018-01-11,bi-annual,2025-01-17,operational,v1.0.0

@@ -1,0 +1,4 @@
+Table,Expected,Actual,Status
+residents,6500,6565,WARNING
+apartments,2400,2400,PASS
+maintenance_requests,21600,21816,WARNING

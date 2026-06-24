@@ -1,0 +1,7 @@
+Issue,Count,Action,Table
+Missing-floor_number,113,Filled,apartments_data
+Missing-apartment_type,93,Filled,apartments_data
+Missing-square_feet,118,Filled,apartments_data
+Missing-occupancy_status,96,Filled,apartments_data
+Missing-purchase_year,103,Filled,apartments_data
+Missing-feedback_text,461,Filled,resident_feedback

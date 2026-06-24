@@ -1,0 +1,13 @@
+table,rows,columns,missing,duplicates
+apartments,2400,10,0,0
+asset_failure_history,30000,6,0,0
+building_assets,500,11,0,0
+complaint_narratives,108000,6,0,0
+maintenance_requests,21608,14,0,1
+residents,6500,11,0,0
+resident_feedback,11840,7,0,0
+service_logs,47500,10,0,0
+society_rules,75,5,0,0
+technicians,80,8,0,0
+technician_availability,58400,6,0,0
+technician_history,50000,7,0,0

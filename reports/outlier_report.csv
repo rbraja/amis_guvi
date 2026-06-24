@@ -1,0 +1,17 @@
+table,column,outlier_count
+apartments,floor_number,0
+apartments,unit_number,0
+apartments,square_feet,22
+apartments,purchase_year,0
+asset_failure_history,downtime_hours,64
+complaint_narratives,word_count,477
+maintenance_requests,resolution_time_hours,2528
+residents,age,0
+residents,phone,0
+resident_feedback,rating,0
+service_logs,visit_number,540
+service_logs,repair_cost,520
+technicians,experience_years,0
+technicians,rating,0
+technician_history,success_rate,82
+technician_history,resolution_hours,4296
