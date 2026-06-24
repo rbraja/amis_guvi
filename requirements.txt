@@ -11,7 +11,8 @@ torch
 datasets
 sentencepiece
 accelerate
-chromadb
+chromadb==1.5.9
+protobuf<7.0
 sentence-transformers
 pypdf
 torch

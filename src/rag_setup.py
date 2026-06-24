@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import chromadb
 from pypdf import PdfReader
 
 from src.rag_utils import get_embedding
@@ -92,6 +91,8 @@ def add_pdf_documents(collection, pdf_dirs):
 
 
 def main():
+    import chromadb
+
     client = chromadb.PersistentClient(path=os.path.join(BASE_DIR, "vector_db"))
 
     existing_collections = [c.name for c in client.list_collections()]

@@ -1,15 +1,26 @@
 
 import os
-import chromadb
 
 from src.rag_utils import get_embedding
 from src.config import BASE_DIR
 from src.rag_loader import load_rag_data
 
+_collection = None
 
-client = chromadb.PersistentClient(path=os.path.join(BASE_DIR, "vector_db"))
 
-collection = client.get_or_create_collection(name="amis_rag")
+def _get_chroma_collection():
+    global _collection
+    if _collection is not None:
+        return _collection
+
+    try:
+        import chromadb
+
+        client = chromadb.PersistentClient(path=os.path.join(BASE_DIR, "vector_db"))
+        _collection = client.get_or_create_collection(name="amis_rag")
+        return _collection
+    except Exception:
+        return None
 
 
 def _tfidf_search(question, top_k=3):
@@ -55,6 +66,10 @@ def _tfidf_search(question, top_k=3):
 
 def search_documents(question, top_k=3):
     """Try semantic ChromaDB retrieval; if empty or failing, fall back to TF-IDF."""
+
+    collection = _get_chroma_collection()
+    if collection is None:
+        return _tfidf_search(question, top_k=top_k)
 
     query_emb = get_embedding(question)
 
